@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: TT Norms, Arial, Helvetica, sans-serif;
 }
 
 /*section one css*/
@@ -32,7 +32,7 @@
     justify-content: end;
     align-items: center;
     gap: 8px;
-    padding: 13px 20px 0 0 ;
+    padding: 13px 13px 13px 0 ;
 }
 .signin-btn{
     font-size: 18px;
@@ -394,7 +394,7 @@
 
 
 
-@media screen and (max-width:760px){
+@media screen and (max-width:1000px){
     .options{
     flex-direction: column;
     gap: 20px;
@@ -428,5 +428,61 @@
     height: auto;
     padding-left: 25px;
 }
+.sub-options-link a{
+    font-size: 14px;
+    }
+}
 
+
+/*section three css*/
+
+.section3-content{
+    display: flex;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.section3-text-contents{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width:400px;
+    margin-right: 50px;
+}
+.section3-image{
+    width: 695px;
+}
+.section3-text-contents h1{
+    font-size: 40px;
+    line-height: 43px;
+    letter-spacing: -0.01px
+}
+.section3-text-contents h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    letter-spacing: -0.01px;
+}
+.section3-text-contents p{
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: -0.01px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.section3-content img{
+    width: 695px;
+}
+.section3-text-contents button{
+    height: 40px;
+    width: 146px;
+    border: none;
+    color: white;
+    background-color: #eb1700ff;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    border-radius: 9999px;
 }
