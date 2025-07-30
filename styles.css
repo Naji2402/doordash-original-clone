@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*section one css*/
+
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    background-color:white;
+    display: flex;
+    flex: 1;
+    z-index: 1000;
+}
+
+.header-sections{
+    height: 100%;
+    width: 100%;
+}
+
+.right-header-section {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 20px 0 0 ;
+}
+.signin-btn{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #EB1700;
+    color: white;
+    border: none;
+    width: 81px;
+    height: 40px;
+    border-radius: 9999px;
+}
+.signup-btn{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    color: #606060;
+    border: none;
+   width: 90px;
+    height: 40px;
+    border-radius: 9999px;
+}
+.middle-header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    height: 100%;
+}
+
+.middle-header-section span{
+    margin-right: 7px;
+} 
+.left-header-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    height: 100%;
+}
+.left-header-section span{
+    margin-right: -10px;
+} 
+.doordash-logo-small-size-display{
+    display: none;
+}
+.section1{
+    background: url(images/hero_desktop.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.doordash-logo{
+    display: none;
+}
+.section1-content{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.section1-content h1{
+    color: white;
+    font-weight: 900;
+    max-width: 781px;
+    text-transform: uppercase;
+    font-size: 39px;
+}
+.address-input{
+    padding: 8px 8px 8px 50px;
+    width: 408px;
+    height: 56px;
+    border: none;
+    border-radius: 9999px;
+    background-color: white;
+    color: rgb(168, 164, 164);
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 550;
+    letter-spacing: 0.01px;
+    margin: 20px 0;
+}
+.input-address-box{
+    position: relative;
+}
+.input-address-box .location-icon{
+    position: absolute;
+    left: 19px;
+    top: 33px;
+}
+.input-address-box .search-icon{
+    position: absolute;
+    left: 196px;
+    top: 34px;
+    display: none;
+}
+.ar-btn{
+    position: absolute;
+    left: 358px;
+    top: 26px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(233, 9, 9);
+    border-radius: 50px;
+    border: none;
+    color: white;
+}
+.auto-sign-in-option{
+    width: 203px;
+    height: 32px;
+    background-color: white;
+}
+.section1-content p{
+    background-color: white;
+    width: 203px;
+    text-align: center;
+}
+.t1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.t1 svg{
+    position: absolute;
+    top: 10px;
+    left: 112px;
+}
+.t1 p{
+    padding: 10px 20px;
+    border-radius: 9999px;
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+}
+.t1-s-main{
+    display: none;
+}
+.ar-btn .fa-arrow-right{
+    font-size: 18px;
+}
+
+
+.options{
+    max-width: 1104px;
+    max-height: 444px;
+    margin: auto;
+}
+@media screen and (max-width:760px){
+    .header{
+        max-width: 765px;
+        height: 95px;
+        background-color: white;
+        z-index: 10000px;
+    }
+    .section1-content h1{
+        color: white;
+        font-size: 32px;
+        font-weight: 900;
+        max-width: 350px;
+        margin-left: 20px;
+    }
+    .input-address-box .location-icon{
+    display: none;
+    }
+    .input-address-box .search-icon{
+        left: 15px;
+        top: 34px;
+        display: block;
+    }
+    .ar-btn{
+        left: 248px;
+        top: 25px;
+    }
+    .t1 svg{
+        left: 58px;
+    }
+    .t1-s{
+        display: none;
+    }
+    .address-input{
+        width: 297px;
+        height: 52px;
+    }
+    .signup-btn{
+        display: none;
+    } 
+    .doordash-logo{
+        display: block;
+    }
+    .doordash-logo-hidden{
+        display: none;
+    }
+    .doordash-logo-small-size-display{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.right-header-section{
+    display: none;
+}
+.doordash-logo-small-size-display div:nth-child(1){
+    padding-right: 10px;
+    margin-top: 13px;
+    margin-left: 7px;
+}
+.left-header-section{
+    padding: 0;
+}
+.middle-header-section{
+    display: none;
+}
+.doordash-logo-small-size-display p{
+    margin: 4px 0;
+}
+.doordash-logo-small-size-display p:nth-child(1){   
+    font-size: 16px;
+    font-weight: bold;
+}
+.doordash-logo-small-size-display p:nth-child(2){   
+    font-size: 16px;
+    color: #606060ff;
+}
+.doordash-logo-small-size-display p:nth-child(3){
+    font-size: 14px;
+    color: #606060ff;
+}
+.ratings-star{
+    display: flex;
+}
+.ratings-star p{
+    margin-top: -1px;
+    font-size: 14px;
+    color: #606060;
+}
+.small-size-texts{
+    margin-left: -10px;
+}
+.t1{
+    display: none;
+}
+/* .t1-s{
+    display: block;
+} */
+.t1-s{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 81px;
+    height: 31px;
+}
+.t1-s svg{
+    position: absolute;
+    top: 8px;
+    left: 7px;
+}
+.t1-s p{
+    padding: 10px 30px;
+    border-radius: 9999px;
+    font-size: 14px;
+    font-weight: 550;
+    color: black;
+}
+.t1-s-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+.t2-s{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 190px;
+    height: 31px;
+}
+.t2-s svg{
+    position: absolute;
+    top: 8px;
+    left: 7px;
+}
+.t2-s p{
+    padding: 10px 0 10px 21px;
+    border-radius: 9999px;
+    font-size: 14px;
+    font-weight: 550;
+    color: black;
+}
+}
+
+
+/*section2 css*/
+
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1104px;
+    height: 444px;
+    margin: 90px auto;
+    gap: 110px;
+    padding-right: 55px;
+
+}
+.sub-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.sub-options img{
+    width: 154px;
+    height: 154px;
+}
+.sub-options h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.sub-options h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+/* .sub-options div:nth-child(1){
+    margin-bottom: 10px;
+} */
+.sub-options div:nth-child(2){
+    width: 250px;
+    height: 194px;
+}
