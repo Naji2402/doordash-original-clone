@@ -197,12 +197,17 @@ h1,h4,p,button,div{
         background-color: white;
         z-index: 10000px;
     }
+    .section1-content{
+        margin-top: 96px;
+    }
     .section1-content h1{
         color: white;
         font-size: 32px;
         font-weight: 900;
         max-width: 350px;
         margin-left: 20px;
+        line-height: 26px;
+        margin-top: 20px;
     }
     .input-address-box .location-icon{
     display: none;
@@ -244,6 +249,7 @@ h1,h4,p,button,div{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 17px 10px 10px 3px;
 
 }
 .doordash-small-logo{
@@ -254,17 +260,19 @@ h1,h4,p,button,div{
     display: none;
 }
 .doordash-logo-small-size-display div:nth-child(1){
-        padding: 14px 9px 12px 8px;
+        padding: 12px 9px 10px 4px;
         margin-top: 13px;
-        margin-left: -6px;
+        margin-left: -1px;
         border: 1px solid #f1f1f1ff;
         border-radius: 10px;
     }
     .signin-btn{
-        margin-left: 47px;
+        margin-left: 76px;
+        margin-top: 20px;
         width: 66px;
         height: 32px;
-        font-size: 14px;
+        font-size: 16px;
+        padding-bottom: 4px;
     }
     .doordash-logo-small-size-display p:nth-child(2){   
     font-size: 14px;
@@ -295,19 +303,27 @@ h1,h4,p,button,div{
     display: flex;
 }
 .ratings-star p{
-    margin-top: -1px;
+    margin-top: -5px;
     font-size: 14px;
     color: #606060;
+    margin-left: -5px;
+    font-weight: 500;
 }
 .small-size-texts{
     margin-left: 8px;
+    margin-top: 8px;
+}
+.small-size-texts p:nth-child(2){
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.small-size-texts p:nth-child(1){
+    margin-bottom:2px;
 }
 .t1{
     display: none;
 }
-/* .t1-s{
-    display: block;
-} */
 .t1-s{
     display: flex;
     justify-content: center;
@@ -337,7 +353,7 @@ h1,h4,p,button,div{
     display: flex;
     justify-content: center;
     position: relative;
-    width: 190px;
+    width: 180px;
     height: 31px;
 }
 .t2-s svg{
