@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    font-family: TT Norms, Arial, Helvetica, sans-serif;
+    font-family: TTNormsProCond-Blk, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+h1,h4,p,button,div{
+    overflow-y: hidden;
 }
 
 /*section one css*/
@@ -109,7 +112,7 @@
     font-size: 39px;
 }
 .address-input{
-    padding: 8px 8px 8px 50px;
+    padding: 8px 8px 8px 53px;
     width: 408px;
     height: 56px;
     border: none;
@@ -127,8 +130,8 @@
 }
 .input-address-box .location-icon{
     position: absolute;
-    left: 19px;
-    top: 33px;
+    left: 17px;
+    top: 36px;
 }
 .input-address-box .search-icon{
     position: absolute;
@@ -138,9 +141,9 @@
 }
 .ar-btn{
     position: absolute;
-    left: 358px;
+    left: 356px;
     top: 26px;
-    padding: 10px 10px 10px 10px;
+    padding: 11px 11px 11px 11px;
     background-color: rgb(233, 9, 9);
     border-radius: 50px;
     border: none;
@@ -163,8 +166,8 @@
 }
 .t1 svg{
     position: absolute;
-    top: 10px;
-    left: 112px;
+    top: 13px;
+    left: 117px;
 }
 .t1 p{
     padding: 10px 20px;
@@ -178,6 +181,7 @@
 }
 .ar-btn .fa-arrow-right{
     font-size: 18px;
+    margin-top: 2px;
 }
 
 
@@ -210,7 +214,7 @@
     }
     .ar-btn{
         left: 248px;
-        top: 25px;
+        top: 24px;
     }
     .t1 svg{
         left: 58px;
@@ -240,15 +244,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+
+}
+.doordash-small-logo{
+    width: 52px;
+    height: 30px;
 }
 .right-header-section{
     display: none;
 }
 .doordash-logo-small-size-display div:nth-child(1){
-    padding-right: 10px;
-    margin-top: 13px;
-    margin-left: 7px;
+        padding: 14px 9px 12px 8px;
+        margin-top: 13px;
+        margin-left: -6px;
+        border: 1px solid #f1f1f1ff;
+        border-radius: 10px;
+    }
+    .signin-btn{
+        margin-left: 47px;
+        width: 66px;
+        height: 32px;
+        font-size: 14px;
+    }
+    .doordash-logo-small-size-display p:nth-child(2){   
+    font-size: 14px;
+    }
 }
 .left-header-section{
     padding: 0;
@@ -280,7 +300,7 @@
     color: #606060;
 }
 .small-size-texts{
-    margin-left: -10px;
+    margin-left: 8px;
 }
 .t1{
     display: none;
@@ -298,10 +318,10 @@
 .t1-s svg{
     position: absolute;
     top: 8px;
-    left: 7px;
+    left: 9px;
 }
 .t1-s p{
-    padding: 10px 30px;
+    padding: 6px 30px;
     border-radius: 9999px;
     font-size: 14px;
     font-weight: 550;
@@ -322,17 +342,17 @@
 }
 .t2-s svg{
     position: absolute;
-    top: 8px;
-    left: 7px;
+    top: 7px;
+    left: 11px;
 }
 .t2-s p{
-    padding: 10px 0 10px 21px;
+    padding: 5px 0 10px 6px;
     border-radius: 9999px;
     font-size: 14px;
     font-weight: 550;
     color: black;
 }
-}
+
 
 
 /*section2 css*/
@@ -367,7 +387,7 @@
 .sub-options h1{
     font-size: 32px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 42px;
     margin-bottom: 2px;
 }
 .sub-options h4{
@@ -380,7 +400,7 @@
 }
 .sub-options div:nth-child(2){
     width: 250px;
-    height: 221px;
+    height: 230px;
 }
 .sub-options-link a{
     text-decoration: none;
@@ -538,7 +558,7 @@
 @media screen and (max-width:680px){
     .section3-content{
         flex-direction: column-reverse;
-        max-width: 643px;
+        width: 93%;
         margin: 0 auto;
 }
 .section3-text-contents{
@@ -546,6 +566,7 @@
 }
 .section3-content img{
     height: 180px;
+    width: 100%;
 }
 .section3-text-contents h1{
     font-size: 24px;
@@ -560,10 +581,16 @@
     margin-top: 10px;
     
 }
+.section3-text-contents button{
+    font-size: 14px;
+    height: 32px;
+    width: 130px;
+}
 
 .section3p2-content{
     flex-direction: column;
-    max-width: 643px;
+    padding: 320px 0 5px 0;
+    width: 93%;
     margin: 0 auto;
 }
 .section3p2-text-contents{
@@ -572,6 +599,7 @@
 }
 .section3p2-content img{
     height: 180px;
+    width: 100%;
 }
 .section3p2-text-contents h1{
     font-size: 24px;
@@ -581,12 +609,12 @@
     margin-top: 10px;
     
 }
-
-
-.section3p2-content{
-    padding: 320px 0 5px 0;
-}
 .section3p2{
     margin-top: -290px;
+}
+.section3p2-text-contents button{
+    font-size: 14px;
+    height: 32px;
+    width: 130px;
 }
 }
