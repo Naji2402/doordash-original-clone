@@ -164,20 +164,21 @@ h1,h4,p,button,div{
     justify-content: center;
     position: relative;
     margin-left: 100px;
-    width: 203px;
-    height: 32px;
+    padding-right: 74px;
 }
 .t1 svg{
     position: absolute;
-    top: 13px;
-    left: 12px;
+    top: 9px;
+    left: 11px;
 }
 .t1 p{
-    padding: 10px 20px;
+    padding: 6px 9px 6px 13px;
     border-radius: 9999px;
     font-size: 16px;
     font-weight: 550;
     color: black;
+    width: 233px;
+    height: 32px;
 }
 .t1-s-main{
     display: none;
