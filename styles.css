@@ -559,7 +559,7 @@ h1,h4,p,button,div{
 
 .section3p2-text-contents h1{
     font-size: 40px;
-    line-height: 43px;
+    line-height: 40px;
     letter-spacing: -0.01px
 }
 .section3p2-text-contents p{
@@ -1030,7 +1030,9 @@ h1,h4,p,button,div{
 .section7-text-contents h1{
     font-size: 40px;
     line-height: 43px;
-    letter-spacing: -0.01px
+    letter-spacing: -0.01px;
+    width: 360px;
+
 }
 .section7-text-contents p{
     font-size: 16px;
@@ -1117,7 +1119,8 @@ h1,h4,p,button,div{
 
 .section8-text-contents h1{
     font-size: 40px;
-    line-height: 43px;
+    line-height: 40px;
+    width: 340px;
     letter-spacing: -0.01px
 }
 .section8-text-contents p{
