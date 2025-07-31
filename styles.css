@@ -586,7 +586,7 @@ h1,h4,p,button,div{
     border-radius: 9999px;
 }
 
-@media screen and (max-width:680px){
+@media screen and (max-width:768px){
     .section3-content{
         flex-direction: column-reverse;
         width: 93%;
@@ -648,4 +648,104 @@ h1,h4,p,button,div{
     height: 32px;
     width: 130px;
 }
+}
+
+
+
+
+/*section 4 css*/
+
+.section4{
+    height: 600px;
+    width: 100%;
+    background: url(images/grocery_desktop.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10px;
+}
+.section4-blur{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.497);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section4-blur h1{
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.01px;
+    color: white;
+    width: 495px;
+    height: 120px;
+    text-align: center;
+}
+.section4-blur h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    letter-spacing: -0.01px;
+    color: white;
+    width: 382px;
+    height: 24px;
+    text-align: center;
+}
+.section4-blur p{
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: -0.01px;
+    font-weight: 500;
+    line-height: 22px;
+    color: white;
+    width: 550px;
+    height: 44px;
+    text-align: center;
+}
+.section4-blur button{
+    height: 40px;
+    width: 146px;
+    border: none;
+    color: white;
+    background-color: #eb1700ff;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    border-radius: 9999px;
+}
+
+
+@media screen and (max-width:770px){
+    .section4{
+        height: 350px;
+        width: 100%;
+        margin-top: 30px;
+        
+    }
+    .section4-blur h1{
+        font-size: 24px;
+        height: 56px;
+        line-height: 28px;
+    }
+    .section4-blur h4{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .section4-blur p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .section4-blur button{
+        height: 32px;
+        width: 123px;
+        font-size: 14px;
+}
+}
+@media screen and (max-width:500px) {
+    .section4-blur p{
+        width: 400px;
+    }
 }
