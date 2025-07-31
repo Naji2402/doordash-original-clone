@@ -663,6 +663,7 @@ h1,h4,p,button,div{
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -10px;
+    margin-bottom: 60px;
 }
 .section4-blur{
     width: 100%;
@@ -718,7 +719,7 @@ h1,h4,p,button,div{
 }
 
 
-@media screen and (max-width:770px){
+@media screen and (max-width:768px){
     .section4{
         height: 350px;
         width: 100%;
@@ -743,9 +744,92 @@ h1,h4,p,button,div{
         width: 123px;
         font-size: 14px;
 }
+    .section4{
+        margin-bottom: 0;
+    }
 }
 @media screen and (max-width:500px) {
     .section4-blur p{
         width: 400px;
+    }
+}
+
+
+
+/*section 5 css*/
+.section5{
+    margin-bottom: 50px;
+}
+.section5-content{
+    display: flex;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.section5-text-contents{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width:400px;
+    margin-right: 50px;
+}
+.section5-text-contents h1{
+    font-size: 40px;
+    line-height: 43px;
+    letter-spacing: -0.01px
+}
+.section5-text-contents p{
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: -0.01px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.section5-content img{
+    width: 695px;
+}
+.section5-text-contents button{
+    height: 40px;
+    width: 146px;
+    border: none;
+    color: white;
+    background-color: #eb1700ff;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    border-radius: 9999px;
+}
+
+
+@media screen and (max-width:768px){
+      .section5-content{
+        flex-direction: column-reverse;
+        width: 93%;
+        margin: 0 auto;
+}
+    .section5-text-contents{
+        width: 100%;
+}
+    .section5-content img{
+        height: 180px;
+        width: 100%;
+}
+    .section5-text-contents h1{
+        font-size: 24px;
+}
+    .section5-text-contents p{
+        font-size: 14px;
+        margin-top: 10px;
+    
+}
+    .section5-text-contents button{
+        font-size: 14px;
+        height: 32px;
+        width: 130px;
+}
+    .section5{
+        margin-top: 20px;
     }
 }
