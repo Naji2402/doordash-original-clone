@@ -163,11 +163,14 @@ h1,h4,p,button,div{
     display: flex;
     justify-content: center;
     position: relative;
+    margin-left: 100px;
+    width: 203px;
+    height: 32px;
 }
 .t1 svg{
     position: absolute;
     top: 13px;
-    left: 117px;
+    left: 12px;
 }
 .t1 p{
     padding: 10px 20px;
@@ -221,12 +224,13 @@ h1,h4,p,button,div{
         left: 248px;
         top: 24px;
     }
+    
     .t1 svg{
         left: 58px;
     }
     .t1-s{
         display: none;
-    }
+    } 
     .address-input{
         width: 297px;
         height: 52px;
@@ -321,9 +325,7 @@ h1,h4,p,button,div{
 .small-size-texts p:nth-child(1){
     margin-bottom:2px;
 }
-.t1{
-    display: none;
-}
+
 .t1-s{
     display: flex;
     justify-content: center;
@@ -350,7 +352,7 @@ h1,h4,p,button,div{
     padding: 0 8px;
 }
 .t2-s{
-    display: flex;
+    display: none;
     justify-content: center;
     position: relative;
     width: 180px;
@@ -425,7 +427,19 @@ h1,h4,p,button,div{
     color: #eb1700ff;
     letter-spacing: -0.01px;
 }
-
+@media screen and (max-width:750px){
+    .t1{
+        display:none;
+    }
+    .t2-s{
+        display: flex;
+    }
+}
+@media screen and (min-width:750px){
+    .t1-s{
+        display:none;
+    }
+}
 
 
 
