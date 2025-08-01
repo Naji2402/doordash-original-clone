@@ -109,7 +109,7 @@ h1,h4,p,button,div{
     font-weight: 900;
     max-width: 781px;
     text-transform: uppercase;
-    font-size: 39px;
+    font-size: 40px;
 }
 .address-input{
     padding: 8px 8px 8px 53px;
@@ -1101,6 +1101,7 @@ h1,h4,p,button,div{
 .section8{
     background-color: #fef1ee;
     margin-top: -50px;
+    margin-bottom: 40px;
 }
 .section8-content{
     display: flex;
@@ -1182,3 +1183,107 @@ h1,h4,p,button,div{
     width: 130px;
 }
 }
+
+
+
+/*section9 css*/
+.section9{
+    width: 1130px;
+    height: 428px;
+    margin: 0 auto;
+}
+.section9-main-heading{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.section9-main-heading h1{
+    font-size: 32px;
+    color: black;
+    line-height: 43px;
+    letter-spacing: -0.01px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section9-options{
+    display: flex;
+    justify-content: space-between;
+}
+.section9-sub-options{
+    flex: 1;
+    text-align: center;
+}
+.section9-sub-options h2{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+}
+.section9-sub-options div:nth-child(1){
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.options-header1{
+    border-bottom:3px solid  #191919ff;
+    background-color: #f7f7f7ff;
+}
+.options-header1{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.options-header1{
+    color:#191919ff ;
+    font-weight: 700;
+}
+.options-header2{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.options-header2{
+    color:#606060 ;
+    font-weight: 500;
+}
+.options-header3{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.options-header3{
+    color:#606060;
+    font-weight: 500;
+}
+.section9-options-list1{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.section9-options-list1 ul li, .section9-options-list2 ul li, .section9-options-list3 ul li{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+
+}
+.section9-options-list2{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.section9-options-list2 ul{
+    margin-left: 97px;
+}
+.section9-options-list3{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    padding-left:111px;
+}
+
+
