@@ -1385,3 +1385,16 @@ h1,h4,p,button,div{
 .download-options div svg:hover{
     fill: white;
 }
+.sub-footer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #191919ff;
+}
+
+
+
+/*sub-footer css*/
+
+
