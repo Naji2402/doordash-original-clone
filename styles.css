@@ -17,7 +17,7 @@ h1,h4,p,button,div{
     top: 0;
     width: 100%;
     max-width: 100%;
-    height: 50px;
+    height: 48px;
     background-color:white;
     display: flex;
     flex: 1;
@@ -35,7 +35,7 @@ h1,h4,p,button,div{
     justify-content: end;
     align-items: center;
     gap: 8px;
-    padding: 13px 13px 13px 0 ;
+    padding: 13px 10px 13px 0;
 }
 .signin-btn{
     font-size: 18px;
@@ -75,8 +75,16 @@ h1,h4,p,button,div{
     padding-left: 20px;
     height: 100%;
 }
+.doordash-logo-hidden{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .left-header-section span{
-    margin-right: -10px;
+    margin-right: 8px;
+    margin-top: 4px;
+    margin-left: 9px;
 } 
 .doordash-logo-small-size-display{
     display: none;
@@ -1326,7 +1334,7 @@ h1,h4,p,button,div{
 .footer{
     background: #191919ff;
     width: 100%;
-    height: 868px;
+    height: 800px;
 }
 .footer-main-section{
     width: 1160px;
@@ -1385,16 +1393,90 @@ h1,h4,p,button,div{
 .download-options div svg:hover{
     fill: white;
 }
-.sub-footer{
-    height: 100px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background: #191919ff;
-}
+
 
 
 
 /*sub-footer css*/
 
 
+.sub-footer{
+    height: 80px;
+    width: 100%;
+    background: #191919ff;
+    
+}
+.sub-footer-main{
+    width: 1160px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.sub-footer a{
+    text-decoration: none;
+    color:rgb(196, 196, 196);
+    font-size: 12px;
+}
+.sub-footer p{
+    color:rgb(196, 196, 196);
+    font-size: 12px;
+}
+.doordash-footer-logo{
+    margin-right: 10px;
+}
+.sub-footer-main div:nth-child(1){
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.sub-footer-main div:nth-child(2){
+    margin-right: 20px;
+}
+.sub-footer-main div:nth-child(3){
+    margin-right: 20px;
+}
+.sub-footer-main div:nth-child(4){
+    margin-right: 20px;
+}
+.sub-footer-main div:nth-child(5){
+    margin-right: 20px;
+}
+.sub-footer-main div:nth-child(6){
+    margin-right: 90px;
+    margin-top: 3px;
+}
+.sub-footer-main div:nth-child(7){
+    margin-right: 90px;
+    color: black;
+    position: relative;
+    width: 150px;
+    height: 32px;
+    border-radius: 9999px;
+    background-color:#F1F1F1;
+    font-size:14px;
+    line-height: 20px;
+    font-weight: 500;
+    padding: 5px 0px 0px 40px;
+}
+.sub-footer-main div:nth-child(7) svg{
+    position: absolute;
+    left: 9px;
+    top: 4px;
+}
+.sub-footer-main div:nth-child(7) i{
+    position: absolute;
+    right: 23px;
+    top: 5px;
+    font-size: 17px;
+}
+.sub-footer-main div:nth-child(8){
+    margin-right: 20px;
+    width: 96px;
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    gap: 10px;
+}
+.sub-footer-main div:nth-child(8) svg{
+    fill: #C4C4C4;
+}
