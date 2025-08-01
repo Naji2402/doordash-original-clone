@@ -95,6 +95,8 @@ h1,h4,p,button,div{
 .doordash-logo-small-size-display{
     display: none;
 }
+
+/*section 1 css*/
 .section1{
     background: url(images/hero_desktop.webp);
     background-position: center center;
@@ -106,6 +108,7 @@ h1,h4,p,button,div{
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
 }
 .doordash-logo{
     display: none;
@@ -221,6 +224,35 @@ h1,h4,p,button,div{
     max-height: 444px;
     margin: auto;
 }
+.s-screen-btns{
+    display: none;
+    gap: 10px;
+    position: absolute;
+    top: 110px;
+    right: 25px;
+}
+
+.s-screen-login-btn{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border: none;
+    width: 66px;
+    height: 40px;
+    border-radius: 9999px;
+}
+
+.s-screen-openapp-btn{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #EB1700;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 9999px;
+}
 @media screen and (max-width:760px){
     .header{
         max-width: 765px;
@@ -308,6 +340,10 @@ h1,h4,p,button,div{
     }
     .doordash-logo-small-size-display p:nth-child(2){   
     font-size: 14px;
+    }
+
+    .s-screen-btns{
+        display: flex;
     }
 }
 .left-header-section{
