@@ -368,12 +368,13 @@ h1,h4,p,button,div{
 }
 .ratings-star{
     display: flex;
+    gap: 3px;
 }
 .ratings-star p{
     margin-top: -5px;
     font-size: 14px;
     color: #606060;
-    margin-left: -5px;
+    margin-left: 3px;
     font-weight: 500;
 }
 .small-size-texts{
