@@ -1189,7 +1189,7 @@ h1,h4,p,button,div{
 /*section9 css*/
 .section9{
     width: 1130px;
-    height: 428px;
+    height: 368px;
     margin: 0 auto;
 }
 .section9-main-heading{
@@ -1225,26 +1225,20 @@ h1,h4,p,button,div{
     justify-content: center;
 }
 .options-header1{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color:#191919ff ;
+    font-weight: 700;
     border-bottom:3px solid  #191919ff;
     background-color: #f7f7f7ff;
 }
-.options-header1{
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-.options-header1{
-    color:#191919ff ;
-    font-weight: 700;
-}
 .options-header2{
     display: flex;
     flex: 1;
     justify-content: space-between;
     margin-bottom: 20px;
-}
-.options-header2{
     color:#606060 ;
     font-weight: 500;
 }
@@ -1253,8 +1247,6 @@ h1,h4,p,button,div{
     flex: 1;
     justify-content: space-between;
     margin-bottom: 20px;
-}
-.options-header3{
     color:#606060;
     font-weight: 500;
 }
@@ -1286,4 +1278,34 @@ h1,h4,p,button,div{
     padding-left:111px;
 }
 
-
+.see-more-header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 60px;
+    gap: 10px;
+    padding-right: 20px;
+}
+.see-more-header h2{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.01px;
+    line-height: 22px;
+    height:25px
+    
+}
+.see-more-header div{
+    background-color: #f7f7f7ff;
+    height: 40px;
+    width: 40px;
+    border-radius: 9999px;
+    padding-top: 12px;
+    padding-left: 7px;
+    
+}
+.see-more-header div i{
+    width: 24px;
+    height: 24px;
+}
