@@ -1457,14 +1457,13 @@ h1,h4,p,button,div{
 
 
 /*sub-footer css*/
-
-
 .sub-footer{
     min-height: 80px;
     max-height: auto;
     width: 100%;
-    background: #191919ff;
-    
+    background: #191919ff; 
+    display: flex;
+    align-items: center;
 }
 .sub-footer-main{
     width: 1160px;
@@ -1472,6 +1471,9 @@ h1,h4,p,button,div{
     height: 100%;
     display: flex;
     align-items: center;
+}
+.sub-footer-first-section{
+    display: flex;
 }
 .sub-footer a{
     text-decoration: none;
@@ -1482,30 +1484,27 @@ h1,h4,p,button,div{
     color:rgb(196, 196, 196);
     font-size: 12px;
 }
-.doordash-footer-logo{
-    margin-right: 10px;
-}
-.sub-footer-main div:nth-child(1){
+.sub-footer-first-section div:nth-child(1){
     margin-right: 15px;
-    margin-top: 10px;
+    margin-top: 3px;
 }
-.sub-footer-main div:nth-child(2){
+.sub-footer-first-section div:nth-child(2){
     margin-right: 20px;
 }
-.sub-footer-main div:nth-child(3){
+.sub-footer-first-section div:nth-child(3){
     margin-right: 20px;
 }
-.sub-footer-main div:nth-child(4){
+.sub-footer-first-section div:nth-child(4){
     margin-right: 20px;
 }
-.sub-footer-main div:nth-child(5){
+.sub-footer-first-section div:nth-child(5){
     margin-right: 20px;
 }
-.sub-footer-main div:nth-child(6){
+.sub-footer-first-section div:nth-child(6){
     margin-right: 90px;
     margin-top: 3px;
 }
-.sub-footer-main div:nth-child(7){
+.sub-footer-second-section{
     margin-right: 90px;
     color: black;
     position: relative;
@@ -1518,18 +1517,19 @@ h1,h4,p,button,div{
     font-weight: 500;
     padding: 5px 0px 0px 40px;
 }
-.sub-footer-main div:nth-child(7) svg{
+.sub-footer-second-section svg{
     position: absolute;
     left: 9px;
     top: 4px;
 }
-.sub-footer-main div:nth-child(7) i{
+.sub-footer-second-section i{
     position: absolute;
     right: 23px;
     top: 5px;
     font-size: 17px;
 }
-.sub-footer-main div:nth-child(8){
+
+.sub-footer-third-section{
     margin-right: 20px;
     width: 96px;
     display: flex;
@@ -1537,10 +1537,9 @@ h1,h4,p,button,div{
     justify-content: end;
     gap: 10px;
 }
-.sub-footer-main div:nth-child(8) svg{
+.sub-footer-third-section svg{
     fill: #C4C4C4;
 }
-
 
 @media screen and (max-width:500px){
     .footer-grids{
@@ -1595,7 +1594,7 @@ h1,h4,p,button,div{
 
 
     /*sub footer css*/
-    .sub-footer-main{
+    /* .sub-footer-main{
         width: 100vw;
         flex-direction: column-reverse;
         align-items: center;
@@ -1612,5 +1611,5 @@ h1,h4,p,button,div{
     .sub-footer-main div:nth-child(6){
         margin-right: 20px;
         margin-top: 0;
-    }
+    } */
 }
