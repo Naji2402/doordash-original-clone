@@ -1580,4 +1580,25 @@ h1,h4,p,button,div{
         margin-top: 0;
         
     }
+
+
+    /*sub footer css*/
+    .sub-footer-main{
+        width: 100vw;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub-footer-main div:nth-child(8){
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+    .sub-footer-main div:nth-child(7){
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+    .sub-footer-main div:nth-child(6){
+        margin-right: 20px;
+        margin-top: 0;
+    }
 }
