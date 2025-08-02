@@ -1252,7 +1252,7 @@ h1,h4,p,button,div{
 /*section9 css*/
 .section9{
     width: 1130px;
-    height: 370px;
+    height: 368px;
     margin: 0 auto;
     overflow-y: hidden;
 }
@@ -1293,7 +1293,15 @@ h1,h4,p,button,div{
     font-size: 16px;
     line-height: 22px;
     letter-spacing: -0.01px;
-
+}
+.section9-options-list ul:nth-child(2){
+    margin-right: 43px;
+}
+.section9-options-list ul:nth-child(3){
+    margin-right: 29px;
+}
+.section9-options-list ul:nth-child(4){
+    margin-right: 189px;
 }
 .options-header{
     margin-bottom: 30px;
@@ -1320,10 +1328,9 @@ h1,h4,p,button,div{
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    margin-top: 10px;
     height: 60px;
     gap: 10px;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 .see-more-header h2{
     font-size: 20px;
