@@ -1594,22 +1594,34 @@ h1,h4,p,button,div{
 
 
     /*sub footer css*/
-    /* .sub-footer-main{
+    .sub-footer-main{
         width: 100vw;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
     }
-    .sub-footer-main div:nth-child(8){
+   
+    .sub-footer-third-section{
         margin-right: 0;
         margin-bottom: 12px;
     }
-    .sub-footer-main div:nth-child(7){
+    
+    .sub-footer-second-section{
         margin-right: 0;
         margin-bottom: 12px;
     }
-    .sub-footer-main div:nth-child(6){
-        margin-right: 20px;
+     
+    .sub-footer-first-section{
+        margin-right: 0;
         margin-top: 0;
-    } */
+        width: 100%;
+        flex-direction: column;
+    }
+    .sub-footer-first-section div{
+        text-align: center;
+        margin: 0;
+    }
+     .sub-footer-first-section div:nth-child(6), .sub-footer-first-section div:nth-child(5), .sub-footer-first-section div:nth-child(4), .sub-footer-first-section div:nth-child(3), .sub-footer-first-section div:nth-child(2), .sub-footer-first-section div:nth-child(1){
+        margin-right: 0;
+    }
 }
