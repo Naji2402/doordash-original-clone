@@ -1413,6 +1413,12 @@ h1,h4,p,button,div{
 .footer-grid-sections{
     width: 244px;
 }
+.footer-grid-sections:nth-child(7){
+    margin-left: -103px;
+}
+.footer-grid-sections:nth-child(8){
+    margin-left: -181px;
+}
 .footer-grids{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1579,6 +1585,12 @@ h1,h4,p,button,div{
     .footer-grid-sections:nth-child(6) h2{
         margin-top: 0;
         
+    }
+    .footer-grid-sections:nth-child(7){
+        margin-left: 0;
+}
+    .footer-grid-sections:nth-child(8){
+        margin-left: 0;
     }
 
 
