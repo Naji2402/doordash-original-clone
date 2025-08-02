@@ -1398,11 +1398,10 @@ h1,h4,p,button,div{
     font-weight: 500;
     line-height: 22px;
     letter-spacing: -0.01px;
+    width: 100%;
+    margin: 40px 0 20px 0;
 }
-.footer-main-section h2:nth-child(1){
-  width: 100%;
-  margin: 40px 0 20px 0;
-}
+
 .footer-grid-sections li{
     color:rgb(196, 196, 196);
     font-size: 14px;
@@ -1532,4 +1531,40 @@ h1,h4,p,button,div{
 }
 .sub-footer-main div:nth-child(8) svg{
     fill: #C4C4C4;
+}
+
+
+@media screen and (max-width:500px){
+    .footer-grids{
+        grid-template-columns: 1fr;
+        text-align: center;
+        width: 100vw;
+    }
+    .footer-main-section{
+        width: 100vw;
+    }
+    .footer-main-section h2{
+        text-align: center;
+    }
+    .footer-grid-sections{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-grid-sections:nth-child(5){
+        display: none;
+    }
+    .footer-grid-sections:nth-child(6){
+        display: none;
+    }
+    .footer-grid-sections:nth-child(7){
+        display: none;
+    }
+    .download-options{
+        justify-content: center;
+        align-items: center;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
 }
