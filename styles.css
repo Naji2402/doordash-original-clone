@@ -1444,7 +1444,9 @@ h1,h4,p,button,div{
 .download-options div svg:hover{
     fill: white;
 }
-
+.footer-grid-sections:nth-child(5){
+        display: none;
+    }
 
 
 
@@ -1545,19 +1547,17 @@ h1,h4,p,button,div{
     }
     .footer-main-section h2{
         text-align: center;
+        margin-top: 32px;
+        margin-bottom: 8px;
     }
     .footer-grid-sections{
         width: 100%;
         text-align: center;
+       
     }
-    .footer-grid-sections:nth-child(5){
-        display: none;
-    }
-    .footer-grid-sections:nth-child(6){
-        display: none;
-    }
-    .footer-grid-sections:nth-child(7){
-        display: none;
+    .footer-grid-sections h2{
+         margin-bottom: 8px;
+         margin-top: 32px;
     }
     .download-options{
         justify-content: center;
@@ -1566,5 +1566,18 @@ h1,h4,p,button,div{
         padding-bottom: 10px;
         margin-top: 32px;
         margin-bottom: 32px;
+    }
+    .footer-grid-sections:nth-child(5){
+        display: flex;
+    }
+    .footer-grid-sections:nth-child(9){
+        display: none;
+    }
+    .footer-grid-sections:nth-child(8){
+        margin-bottom: 20px;
+    }
+    .footer-grid-sections:nth-child(6) h2{
+        margin-top: 0;
+        
     }
 }
