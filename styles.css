@@ -313,7 +313,6 @@ div {
     font-size: 32px;
     font-weight: 900;
     max-width: 350px;
-    margin-left: 20px;
     line-height: 26px;
     margin-top: 20px;
   }
@@ -325,10 +324,11 @@ div {
     top: 34px;
     display: block;
   }
-  .ar-btn {
-    left: 248px;
-    top: 24px;
-  }
+      .ar-btn {
+        left: 245px;
+        top: 26px;
+        padding: 8px;
+    }
 
   .t1 svg {
     left: 58px;
@@ -346,6 +346,7 @@ div {
   .doordash-logo {
     display: flex;
     padding-right: 5px;
+    padding-top: 10px;
   }
   .doordash-logo-hidden {
     display: none;
