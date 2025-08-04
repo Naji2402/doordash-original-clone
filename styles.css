@@ -135,10 +135,11 @@ h1,h4,p,button,div{
 .doordash-logo svg:nth-child(1){
     margin-left: 4px;
     margin-top: 12px;
+    margin-right: 3px;
 }
 .doordash-logo svg:nth-child(2){
-    margin-left: 8px;
-    margin-top: 10px;
+    margin-left: 5px;
+    margin-top: 11px;
 }
 .section1-content{
     margin-top: 50px;
@@ -270,6 +271,7 @@ h1,h4,p,button,div{
 @media screen and (max-width:760px){
     .doordash-logo-hidden{
         display: flex;
+        
     }
     .middle-header-section{
         display: none;
@@ -323,6 +325,7 @@ h1,h4,p,button,div{
     } 
     .doordash-logo{
         display: flex;
+        padding-right: 5px;
     }
     .doordash-logo-hidden{
         display: none;
@@ -371,8 +374,20 @@ h1,h4,p,button,div{
     @media screen and (max-width:400px){
         .signin-btn {
         margin-left: 40px;
+    }    .section1-content h1 {
+            margin-left: 0;
+            line-height: 28px;
+            margin-top: 15px;
     }
+    .ar-btn{
+        left: 241px;
+        top: 27px;
+        padding: 8px;
     }
+    .input-address-box{
+        top: 4px;
+    }
+}
 
 
 
@@ -432,10 +447,10 @@ h1,h4,p,button,div{
 .t1-s svg{
     position: absolute;
     top: 8px;
-    left: 9px;
+    left: 12px;
 }
 .t1-s p{
-    padding: 6px 30px;
+    padding: 6px 34px;
     border-radius: 9999px;
     font-size: 14px;
     font-weight: 550;
@@ -445,7 +460,7 @@ h1,h4,p,button,div{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 8px;
+    padding: 0 12px;
 }
 .t2-s{
     display: none;
@@ -460,7 +475,7 @@ h1,h4,p,button,div{
     left: 11px;
 }
 .t2-s p{
-    padding: 5px 0 10px 6px;
+    padding: 6px 0 10px 12px;
     border-radius: 9999px;
     font-size: 14px;
     font-weight: 550;
@@ -1026,7 +1041,7 @@ h1,h4,p,button,div{
         scrollbar-width: none;
     }
     .section6{ 
-        padding: 40px 0 20px 0;
+        padding: 40px 0 0 0;
         margin-top: -30px;
     }
     .grid-sections .grid-box {
@@ -1224,6 +1239,7 @@ h1,h4,p,button,div{
     background-color: #fef1ee;
     margin-top: -50px;
     margin-bottom: 40px;
+    padding-bottom: 15px;
 }
 .section8-content{
     display: flex;
@@ -1732,3 +1748,6 @@ h1,h4,p,button,div{
         padding-left: 0px
     }
 }
+
+
+
