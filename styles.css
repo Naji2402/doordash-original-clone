@@ -1366,12 +1366,15 @@ h1,h4,p,button,div{
     margin-bottom: 30px;
     color:#191919ff ;
     font-weight: 700;
-    width: 361px;
+    width: 100%;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     
+}
+.options-header{
+    border-bottom: 2px solid #f1f1f1ff;
 }
 .options-header:nth-child(1){
     border-bottom:3px solid  #191919ff;  
