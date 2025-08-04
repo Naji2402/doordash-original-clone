@@ -769,6 +769,7 @@ div {
     width: 345px;
     height: 500px;
     object-fit: cover;
+    margin-left: 20px;
   }
   .section3p2-text-contents {
     padding-left: 20px;
