@@ -339,8 +339,7 @@ h1,h4,p,button,div{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 17px 10px 10px 3px;
-
+    padding: 17px 4px 10px 3px;
 }
 .doordash-small-logo{
     width: 52px;
@@ -351,14 +350,22 @@ h1,h4,p,button,div{
 }
 .doordash-logo-small-size-display div:nth-child(1){
         padding: 12px 9px 10px 4px;
-        margin-top: 13px;
-        margin-left: -1px;
         border: 1px solid #f1f1f1ff;
         border-radius: 10px;
+         width: 64px;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 4px;
+    }
+    .small-size-texts div:nth-child(1){
+        width: 109px;
     }
     .signin-btn{
-        margin-left: 76px;
-        margin-top: 20px;
+        margin-left: 70px;
+        margin-top: 12px;
         width: 66px;
         height: 32px;
         font-size: 16px;
@@ -373,7 +380,7 @@ h1,h4,p,button,div{
     }
     @media screen and (max-width:400px){
         .signin-btn {
-        margin-left: 40px;
+        margin-left:36px;
     }    .section1-content h1 {
             margin-left: 0;
             line-height: 28px;
