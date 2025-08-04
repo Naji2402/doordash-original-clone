@@ -368,6 +368,14 @@ h1,h4,p,button,div{
     .s-screen-btns{
         display: flex;
     }
+    @media screen and (max-width:400px){
+        .signin-btn {
+        margin-left: 40px;
+    }
+    }
+
+
+
 }
 .left-header-section{
     padding: 0;
@@ -1430,6 +1438,9 @@ h1,h4,p,button,div{
     .section9-header-options{
         width: 354px;
     }
+    .section9-main-heading {
+    padding-right: 50px;
+    }
 }
 
 
@@ -1699,10 +1710,22 @@ h1,h4,p,button,div{
 
 
 @media screen and (max-width:400px){
-    .fist-section-second-sub-footer{
+    .fisrt-section-second-sub-footer{
         padding-left: 3px;
         flex-direction: column;
         align-items: center;
         gap: 0;
+    }
+    .sub-footer-first-section div:nth-child(1) div:nth-child(1) {
+        margin-top: 6px;
+    }
+    .sub-footer-first-section div:nth-child(1){
+        margin-bottom: -6px;
+    }
+    .sub-footer-first-section div:nth-child(2) div:nth-child(2) {
+        margin-top: 8px;
+    }
+    .fist-section-second-sub-footer {
+        padding-left: 0px
     }
 }
