@@ -820,6 +820,7 @@ h1,h4,p,button,div{
     .section4-blur h4{
         font-size: 18px;
         margin-top: 10px;
+
     }
     .section4-blur p{
         font-size: 14px;
@@ -839,7 +840,18 @@ h1,h4,p,button,div{
         width: 400px;
     }
 }
-
+@media screen and (max-width:400px){
+    .section4-blur h1{
+        width: 337px;
+    }
+    .section4-blur h4{
+        width: 344px;
+    }
+    .section4-blur p{
+        width: 376px;
+        text-align: center;
+    }
+}
 
 
 /*section 5 css*/
@@ -1068,7 +1080,20 @@ h1,h4,p,button,div{
         width: 343px;
     }
 }
-
+@media screen and (max-width:400px){
+        .grid-box img {
+            width: 296px;
+        }
+        .grid-sections .grid-box{
+            width: 297px;
+        }
+        .grid-sections h1{
+            width: 267px;
+        }
+         .grid-sections p{
+        width: 297px;
+        }
+}
 
 
 
@@ -1178,6 +1203,11 @@ h1,h4,p,button,div{
     height: 32px;
     width: 130px;
 }
+}
+@media screen and (max-width:400px) {
+    .section7-text-contents p {
+        width: 335px;
+    }
 }
 
 /*section 8 csss*/
@@ -1396,6 +1426,11 @@ h1,h4,p,button,div{
     }
     
 }
+@media screen and (max-width:400px){
+    .section9-header-options{
+        width: 354px;
+    }
+}
 
 
 /*footer css*/
@@ -1505,10 +1540,6 @@ h1,h4,p,button,div{
 .sub-footer-first-section div:nth-child(1){
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-.sub-footer-first-section div:nth-child(2){
-    display: flex;
 }
 .sub-footer-first-section div:nth-child(1) div:nth-child(1){
     margin-right: 15px;
@@ -1667,3 +1698,11 @@ h1,h4,p,button,div{
 }
 
 
+@media screen and (max-width:400px){
+    .fist-section-second-sub-footer{
+        padding-left: 3px;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+}
