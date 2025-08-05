@@ -1233,6 +1233,10 @@ button{
     line-height: 28px;
     width: 300px;
   }
+  .grid-sections {
+     margin-top: 20px;
+    }
+    
 }
 @media screen and (max-width: 400px) {
   .grid-box img {
@@ -2023,3 +2027,4 @@ button{
     padding-left: 0px;
   }
 }
+
