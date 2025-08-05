@@ -601,6 +601,9 @@ div {
   .sub-options div:nth-child(1) {
     margin-right: 64px;
   }
+  .sub-options div:nth-child(2) {
+        padding-left: 0;
+  }
 }
 
 
@@ -836,6 +839,7 @@ div {
     height: 180px;
     width: 100%;
     object-fit: cover;
+    margin-left: 0;
   }
   .section3p2-text-contents h1 {
     font-size: 24px;
@@ -852,6 +856,7 @@ div {
     height: 32px;
     width: 130px;
   }
+    
 }
 
 /*section 4 css*/
@@ -1430,6 +1435,9 @@ div {
     font-size: 14px;
     height: 32px;
     width: 130px;
+  }
+  .section8-image {
+      margin-left: 0;
   }
 }
 
