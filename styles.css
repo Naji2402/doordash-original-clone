@@ -1,16 +1,19 @@
-/* 
- :root{
-    --regular:tt-norms-regular;
-    --medium:tt-norms-medium;
-    --bold:tt-norms-bold;
-    --extrabold:tt-norms-extrabold;
-} 
-
-
 @font-face {
-    font-family: tt-norms-extrabold;
-    src: url('font/TTNorms-ExtraBold.woff2');
-}  */
+    font-family: TTNorms-regular;
+    src: url(font/TTNorms-Regular.woff2);
+}
+@font-face {
+    font-family: TTNorms-medium;
+    src: url(font/TTNorms-Medium.woff2);
+}
+@font-face {
+    font-family: TTNorms-bold;
+    src: url(font/TTNorms-Bold.woff2);
+}
+@font-face {
+    font-family: TTNorms-extrabold;
+    src: url(font/TTNorms-ExtraBold.woff2);
+}
 
 * {
   margin: 0;
@@ -28,6 +31,12 @@ p,
 button,
 div {
   overflow-y: hidden;
+}
+p{
+  font-family: TTNorms-medium;
+}
+button{
+  font-family: TTNorms-medium;
 }
 
 /*section one css*/
@@ -62,6 +71,7 @@ div {
 .signin-btn {
   font-size: 18px;
   font-weight: bold;
+  font-family: TTNorms-medium;
   background-color: #eb1700;
   color: white;
   border: none;
@@ -256,6 +266,7 @@ div {
 .s-screen-login-btn {
   font-size: 16px;
   font-weight: bold;
+  font-family: TTNorms-medium;
   background-color: white;
   color: black;
   border: none;
@@ -314,7 +325,7 @@ div {
     font-size: 32px;
     font-weight: 900;
     max-width: 350px;
-    line-height: 26px;
+    line-height: 28px;
     margin-top: 20px;
   }
   .input-address-box .location-icon {
@@ -380,13 +391,12 @@ div {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    margin-left: 4px;
   }
   .small-size-texts div:nth-child(1) {
     width: 109px;
   }
   .signin-btn {
-    margin-left: 70px;
+    margin-left: 86px;
     margin-top: 12px;
     width: 66px;
     height: 32px;
@@ -426,7 +436,7 @@ div {
   /* display: none; */
 }
 .doordash-logo-small-size-display p {
-  margin: 4px 0;
+  margin: 6px 0;
 }
 .doordash-logo-small-size-display p:nth-child(1) {
   font-size: 16px;
@@ -445,11 +455,12 @@ div {
   gap: 3px;
 }
 .ratings-star p {
-  margin-top: -5px;
+  margin-top: -2px;
   font-size: 14px;
   color: #606060;
   margin-left: 3px;
   font-weight: 500;
+  font-family: TTNorms-medium;
 }
 .small-size-texts {
   margin-left: 8px;
@@ -459,9 +470,12 @@ div {
   margin-top: 0;
   font-size: 14px;
   font-weight: 500;
+  font-family: TTNorms-medium;
 }
 .small-size-texts p:nth-child(1) {
   margin-bottom: 2px;
+  font-weight: 700;
+  font-family: TTNorms-regular;
 }
 
 .t1-s {
@@ -802,6 +816,7 @@ div {
   }
   .section3-text-contents {
     width: 100%;
+    padding-left: 0;
   }
   .section3-content img {
     height: 180px;
@@ -824,6 +839,8 @@ div {
     font-size: 14px;
     height: 32px;
     width: 130px;
+    font-weight: 700;
+    font-family: TTNorms-medium;
   }
 
   .section3p2-content {
@@ -835,6 +852,7 @@ div {
   .section3p2-text-contents {
     width: 100%;
     margin-left: 0;
+    padding-left: 0;
   }
   .section3p2-content img {
     height: 180px;
@@ -848,6 +866,7 @@ div {
   .section3p2-text-contents p {
     font-size: 14px;
     margin-top: 10px;
+
   }
   .section3p2 {
     margin-top: -290px;
@@ -1040,6 +1059,7 @@ div {
   }
   .section5-text-contents {
     width: 100%;
+    padding-left: 0;
   }
   .section5-content img {
     height: 180px;
@@ -1341,6 +1361,9 @@ div {
     font-size: 14px;
     height: 32px;
     width: 130px;
+  }
+  .section7-text-contents{
+    padding-left: 0;
   }
 }
 @media screen and (max-width: 400px) {
