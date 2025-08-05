@@ -1135,39 +1135,67 @@ div {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width:768px){
+  .grid-box {
+    width: 344px;
+  }
+  .grid-box div:nth-child(1) {
+    height: 344px;
+  }
+  .grid-box img {
+    object-fit: cover;
+    height: 100%
+}
+.grid-sections{
+  gap: 25px;
+  padding-left: 20px;
+}
+}
+
+
+
 @media screen and (max-width: 500px) {
   .grid-sections {
     grid-auto-flow: column;
     overflow-x: scroll;
     scrollbar-width: none;
+    padding-left: 0;
+    gap: 10px;
   }
   .section6 {
     padding: 40px 0 0 0;
     margin-top: -30px;
   }
   .grid-sections .grid-box {
-    width: 448px;
+     width: 344px;
     margin-right: 10px;
+    padding-bottom: 20px;
   }
   .grid-sections .grid-box:nth-child(1) {
-    margin-left: 50px;
+    margin-left: 40px
   }
   .grid-sections .grid-box:nth-last-child(1) {
-    margin-right: 50px;
+    margin-right: 40px;
+  }
+  .grid-box div:nth-child(1){
+    height: 180px;
   }
   .grid-box img {
     width: 100%;
-    height: 180px;
+    height: 100%;
     object-fit: cover;
   }
   .grid-sections h1 {
     font-size: 24px;
     line-height: 28px;
-    width: 367px;
+    width: 308px;
   }
   .grid-sections p {
     font-size: 14px;
-    width: 408px;
+    width: 343px;
+  }
+  .grid-box .text-section3 p:nth-last-child(1){
+    font-size: 12px;
   }
   .grid-sections button {
     height: 32px;
@@ -1181,25 +1209,6 @@ div {
     font-size: 24px;
     line-height: 28px;
     width: 300px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .grid-sections .grid-box {
-    width: 343px;
-  }
-  .grid-box img {
-    width: 100%;
-    height: 184px;
-    object-fit: cover;
-  }
-  .grid-sections .grid-box:nth-child(1) {
-    margin-left: 40px;
-  }
-  .grid-sections .grid-box:nth-last-child(1) {
-    margin-right: 40px;
-  }
-  .grid-sections p {
-    width: 343px;
   }
 }
 @media screen and (max-width: 400px) {
