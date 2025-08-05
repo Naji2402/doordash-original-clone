@@ -1083,6 +1083,9 @@ button{
   .section5 {
     margin-top: 20px;
   }
+  .section5-text-contents h1 {
+    line-height: 28px;
+    margin-top: 10px;
 }
 
 /*section 6 css*/
@@ -1236,7 +1239,7 @@ button{
   .grid-sections {
      margin-top: 20px;
     }
-    
+
 }
 @media screen and (max-width: 400px) {
   .grid-box img {
