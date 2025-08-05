@@ -1909,7 +1909,23 @@ div {
   }
 }
 
-
+@media screen and (max-width:400px) {
+  .footer-grids .footer-grid-sections:nth-child(6){
+    position: static;
+    margin-left: 90px;
+   
+  }
+  .footer-grids .footer-grid-sections:nth-child(7){
+    position: static;
+    margin-left: 115px;
+  
+  }
+  .footer-grids .footer-grid-sections:nth-child(8){
+    position: static;
+    margin-left: 90px;
+ 
+  }
+}
 
   /*sub footer css*/
   .sub-footer-main {
