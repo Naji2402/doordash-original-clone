@@ -42,7 +42,7 @@ button{
 /*section one css*/
 
 .header {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   width: 100%;
@@ -2010,6 +2010,10 @@ button{
     position: static;
     margin-left: 90px;
  
+  }
+  .fist-section-second-sub-footer{
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
