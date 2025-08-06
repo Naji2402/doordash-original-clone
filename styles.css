@@ -47,7 +47,7 @@ button{
   top: 0;
   width: 100%;
   max-width: 100%;
-  height: 48px;
+  height: 72px;
   background-color: transparent;
   display: flex;
   flex: 1;
@@ -62,11 +62,11 @@ button{
 
 .right-header-section {
   height: 100%;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  gap: 8px;
-  padding: 13px 10px 13px 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 23px 13px 0;
 }
 .signin-btn {
   font-size: 18px;
@@ -93,8 +93,7 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 24px;
-  padding-left: 5px;
+  padding-left: 12px;
   height: 100%;
 }
 .middle-header-section div {
@@ -104,7 +103,7 @@ button{
 }
 .middle-header-section span {
   margin-top: 3px;
-  margin-right: 14px;
+  margin-right: 10px;
 }
 .left-header-section {
   display: flex;
@@ -172,6 +171,7 @@ button{
   max-width: 781px;
   text-transform: uppercase;
   font-size: 40px;
+  
 }
 .address-input {
   padding: 8px 8px 8px 52px;
@@ -234,16 +234,17 @@ button{
 .t1 svg {
   position: absolute;
   top: 9px;
-  left: 11px;
+  left: 24px;
 }
 .t1 p {
-  padding: 6px 9px 6px 13px;
-  border-radius: 9999px;
-  font-size: 16px;
-  font-weight: 550;
-  color: black;
-  width: 233px;
-  height: 32px;
+    padding: 8px 5px 0px 16px;
+    border-radius: 9999px;
+    font-size: 14px;
+    font-family: TTNorms-bold;
+    font-weight: 550;
+    color: black;
+    width: 203px;
+    height: 32px;
 }
 .t1-s-main {
   display: none;
@@ -1767,7 +1768,6 @@ button{
 }
 .sub-footer-first-section div:nth-child(2) div:nth-child(2) {
   margin-right: 90px;
-  margin-top: 5px;
 }
 .sub-footer-second-section {
   margin-right: 90px;
@@ -1793,6 +1793,10 @@ button{
   top: 5px;
   font-size: 17px;
 }
+.fist-section-second-sub-footer{
+  display: flex;
+  align-items: center;
+}
 
 .sub-footer-third-section {
   margin-right: 20px;
@@ -1805,10 +1809,7 @@ button{
 .sub-footer-third-section svg {
   fill: #c4c4c4;
 }
-.fisrt-section-second-sub-footer{
-  display: flex;
-  align-items: center;
-}
+
 
 
 @media screen and (max-width:768px){
@@ -1944,27 +1945,6 @@ button{
   .footer-main-section {
         padding-left: 0;
   }
-}
-
-@media screen and (max-width:400px) {
-  .footer-grids .footer-grid-sections:nth-child(6){
-    position: static;
-    margin-left: 90px;
-   
-  }
-  .footer-grids .footer-grid-sections:nth-child(7){
-    position: static;
-    margin-left: 115px;
-  
-  }
-  .footer-grids .footer-grid-sections:nth-child(8){
-    position: static;
-    margin-left: 90px;
- 
-  }
-}
-
-  /*sub footer css*/
   .sub-footer-main {
     width: 100vw;
     flex-direction: column-reverse;
@@ -2013,29 +1993,26 @@ button{
   .sub-footer-first-section div:nth-child(1) {
     margin-right: 0;
   }
+}
 
-
-@media screen and (max-width: 400px) {
-  .fisrt-section-second-sub-footer {
-    padding-left: 3px;
-    flex-direction: column;
-    align-items: center;
-    gap: 0;
+@media screen and (max-width:400px) {
+  .footer-grids .footer-grid-sections:nth-child(6){
+    position: static;
+    margin-left: 90px;
+   
   }
-  .sub-footer-first-section div:nth-child(1) div:nth-child(1) {
-    margin-top: 6px;
+  .footer-grids .footer-grid-sections:nth-child(7){
+    position: static;
+    margin-left: 115px;
+  
   }
-  .sub-footer-first-section div:nth-child(1) {
-    margin-bottom: -6px;
-  }
-  .sub-footer-first-section div:nth-child(2) div:nth-child(2) {
-    margin-top: 8px;
-  }
-  .fist-section-second-sub-footer {
-    padding-left: 0px;
+  .footer-grids .footer-grid-sections:nth-child(8){
+    position: static;
+    margin-left: 90px;
+ 
   }
 }
-}
+
 
 
 
