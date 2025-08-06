@@ -285,6 +285,30 @@ button{
   height: 40px;
   border-radius: 9999px;
 }
+.tbv-btn{
+  display: none;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+.tablet-view-btn{
+  padding: 0px 0 0 18px;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 550;
+  font-family: TTNorms-bold;
+  color: black;
+  display: none;
+  border: none;
+  width: 88px;
+  height: 32px;
+  background-color: white;
+}
+.tbv-btn svg{
+  position: absolute;
+  left: 160px;
+  top: 8px;
+}
 
 /*tablet view*/
 @media screen and (max-width: 768px) {
@@ -298,6 +322,20 @@ button{
   }
   .t1 {
     display: none;
+  }
+  .middle-header-section svg:nth-child(1){
+    width: 32px;
+    height: 18px;
+  }
+  .middle-header-section svg:nth-child(2){
+    width: 112px;
+    height: 13px;
+  }
+  .tablet-view-btn{
+    display: block;
+  }
+  .tbv-btn{
+    display: flex;
   }
 }
 
@@ -414,6 +452,13 @@ button{
   .s-screen-btns {
     display: flex;
   }
+  .tablet-view-btn{
+    display: none;
+  }
+  .tbv-btn{
+    display: none;
+  }
+}
   @media screen and (max-width: 400px) {
     .signin-btn {
       margin-left: 36px;
@@ -431,8 +476,13 @@ button{
     .input-address-box {
       top: 4px;
     }
+    .tablet-view-btn{
+    display: none;
   }
-}
+  .tbv-btn{
+    display: none;
+  }
+  }
 .left-header-section {
   padding: 0;
 }
