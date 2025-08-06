@@ -337,7 +337,7 @@ button{
     display: block;
   }
       .ar-btn {
-        left: 245px;
+        left: 242px;
         top: 26px;
         padding: 8px;
     }
@@ -396,7 +396,7 @@ button{
     width: 109px;
   }
   .signin-btn {
-    margin-left: 86px;
+    margin-left: 95px;
     margin-top: 12px;
     width: 66px;
     height: 32px;
@@ -493,10 +493,11 @@ button{
   left: 12px;
 }
 .t1-s p {
-  padding: 6px 34px;
+  padding: 7px 32px;
   border-radius: 9999px;
   font-size: 14px;
   font-weight: 550;
+  font-family: TTNorms-bold;
   color: black;
 }
 .t1-s-main {
@@ -518,10 +519,11 @@ button{
   left: 11px;
 }
 .t2-s p {
-  padding: 6px 0 10px 12px;
+  padding: 7px 0 10px 20px;
   border-radius: 9999px;
   font-size: 14px;
   font-weight: 550;
+  font-family: TTNorms-bold;
   color: black;
 }
 
@@ -1087,7 +1089,7 @@ button{
     line-height: 28px;
     margin-top: 10px;
 }
-
+}
 /*section 6 css*/
 .section6 {
   background-color: #fef1ee;
@@ -2030,4 +2032,8 @@ button{
     padding-left: 0px;
   }
 }
+}
+
+
+
 
