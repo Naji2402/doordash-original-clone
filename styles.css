@@ -151,7 +151,7 @@ button{
 }
 .doordash-logo svg:nth-child(1) {
   margin-left: 4px;
-  margin-top: 12px;
+  margin-top: 11px;
   margin-right: 3px;
 }
 .doordash-logo svg:nth-child(2) {
@@ -174,7 +174,7 @@ button{
   font-size: 40px;
 }
 .address-input {
-  padding: 8px 8px 8px 53px;
+  padding: 8px 8px 8px 52px;
   width: 408px;
   height: 56px;
   border: none;
@@ -182,10 +182,12 @@ button{
   background-color: white;
   color: rgb(168, 164, 164);
   font-size: 16px;
+  font-family: TTNorms-medium;
+  color: rgb(25, 25, 25);
   line-height: 22px;
   font-weight: 550;
   letter-spacing: 0.01px;
-  margin: 20px 0;
+  margin: 20px 0 17px 0px;
 }
 .input-address-box {
   position: relative;
@@ -202,14 +204,15 @@ button{
   display: none;
 }
 .ar-btn {
-  position: absolute;
-  left: 356px;
-  top: 26px;
-  padding: 11px 11px 11px 11px;
-  background-color: rgb(233, 9, 9);
-  border-radius: 50px;
-  border: none;
-  color: white;
+    position: absolute;
+    left: 360px;
+    top: 28px;
+    width: 40px;
+    background-color: rgb(233, 9, 9);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    height: 40px;
 }
 .auto-sign-in-option {
   width: 203px;
@@ -244,10 +247,6 @@ button{
 }
 .t1-s-main {
   display: none;
-}
-.ar-btn .fa-arrow-right {
-  font-size: 18px;
-  margin-top: 2px;
 }
 
 .options {
@@ -327,20 +326,22 @@ button{
     max-width: 350px;
     line-height: 28px;
     margin-top: 20px;
+    position: relative;
+    top: -3px;
   }
   .input-address-box .location-icon {
     display: none;
   }
   .input-address-box .search-icon {
-    left: 15px;
-    top: 34px;
+    left: 16px;
+    top: 35px;
     display: block;
   }
-      .ar-btn {
-        left: 242px;
+  .ar-btn {
+        left: 241px;
         top: 26px;
         padding: 8px;
-    }
+  }
 
   .t1 svg {
     left: 58px;
@@ -357,8 +358,10 @@ button{
   }
   .doordash-logo {
     display: flex;
-    padding-right: 5px;
+    padding-right: 4px;
     padding-top: 10px;
+    position: relative;
+    top: -3px
   }
   .doordash-logo-hidden {
     display: none;
@@ -515,8 +518,8 @@ button{
 }
 .t2-s svg {
   position: absolute;
-  top: 7px;
-  left: 11px;
+  top: 8px;
+  left: 12px;
 }
 .t2-s p {
   padding: 7px 0 10px 20px;
