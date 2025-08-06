@@ -1549,6 +1549,19 @@ button{
   border-radius: 9999px;
 }
 
+
+@media screen and (max-width:1024px){
+  .section7-text-contents {
+    margin-left: 25px;
+    margin-right: 50px;
+  }
+  .section7-content img {
+    width:524px;
+    height: 500px;
+    object-fit: cover;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .section7-content img {
     width: 285px;
@@ -1558,7 +1571,7 @@ button{
   .section7-text-contents {
     padding-left: 20px;
     width: 382px;
-    margin-right: 75px;
+    margin-right: 55px;
   }
 }
 
@@ -1659,11 +1672,30 @@ button{
   letter-spacing: -0.01px;
   border-radius: 9999px;
 }
+
+@media screen and (max-width:1024px){
+  .section-text-contents {
+    margin-left: 44px;
+    margin-right: 50px;
+  }
+  .section8-content img {
+    width:524px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 25px;
+  }
+  .section8{
+    padding-bottom: 0;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .section8-content img {
     width: 307px;
     height: 500px;
     object-fit: cover;
+    margin-left: 0;
   }
   .section8-image {
     margin-left: 20px;
@@ -1671,6 +1703,7 @@ button{
   .section8-text-contents {
     width: 360px;
   }
+  
 }
 
 @media screen and (max-width: 500px) {
@@ -2033,6 +2066,24 @@ button{
 .sub-footer a{
   font-family: TTNorms-medium;
 }
+@media screen and (max-width:1024px){
+  .footer-grids {
+    width: 984px;
+    padding-left: 10px;
+  }
+  .footer h2{
+    margin-left: 10px;
+  }
+  .download-options{
+    position: relative;
+    top: -32px;
+    left: -22px;
+  }
+
+}
+
+
+
 
 
 
@@ -2106,6 +2157,7 @@ button{
     grid-template-columns: 1fr;
     text-align: center;
     width: 100vw;
+    padding-left: 0;
   }
   .footer-main-section {
     width: 100vw;
