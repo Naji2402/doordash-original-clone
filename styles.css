@@ -1859,6 +1859,9 @@ button{
 .sub-footer-third-section svg {
   fill: #c4c4c4;
 }
+.sub-footer a{
+  font-family: TTNorms-medium;
+}
 
 
 
@@ -1913,8 +1916,19 @@ button{
     top: -32px;
     left: -361px;
   }
+  .sub-footer-first-section {
+    flex-direction: column;
 }
-
+.fist-section-second-sub-footer{
+    padding-left: 50px;
+}
+  .sub-footer-second-section {
+      margin-right: 4px;
+  }
+  .sub-footer-first-section div:nth-child(1) div:nth-child(1) {
+    margin-top: 6px;
+  }
+}
 @media screen and (max-width: 500px) {
  
   .footer-grids {
