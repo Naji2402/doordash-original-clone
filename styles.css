@@ -702,9 +702,8 @@ button{
 .t1-s {
     display: none;
   }
-
-@media screen and (max-width: 768px) {
-  .options {
+  @media screen and (max-width: 1024px){
+    .options {
     flex-direction: column;
     gap: 20px;
     width: 100%;
@@ -745,6 +744,50 @@ button{
   .sub-options div:nth-child(2) {
         padding-left: 0;
   }
+  }
+
+@media screen and (max-width: 768px) {
+  /* .options {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 0;
+    max-width: none;
+    max-height: none;
+  }
+  .section2 {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+  .sub-options img {
+    width: 124px;
+    height: 124px;
+    margin-bottom: 75px;
+  }
+
+  .sub-options {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 238px;
+    text-align: left;
+  }
+  .sub-options div:nth-child(2) {
+    width: 250px;
+    height: auto;
+    padding-left: 25px;
+  }
+  .sub-options-link a {
+    font-size: 14px;
+  }
+  .sub-options div:nth-child(1) {
+    margin-right: 64px;
+  }
+  .sub-options div:nth-child(2) {
+        padding-left: 0;
+  } */
 }
 
 
@@ -900,16 +943,36 @@ button{
   letter-spacing: -0.01px;
   border-radius: 9999px;
 }
+@media screen and (max-width:1024px){
+  .section3-text-contents {
+    margin-left: 25px;
+  }
+  .section3-content img {
+    width:524px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .section3p2-content img {
+    width:524px;
+    height: 500px;
+    object-fit: cover;
+     margin-left: 25px;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .section3-content img {
     width: 345px;
     height: 500px;
     object-fit: cover;
+    margin-right: 20px;
   }
   .section3-text-contents {
     padding-left: 20px;
     width: 323px;
-    margin-right: 75px;
+    margin-right: 60px;
   }
   .section3-text-contents p {
     width: 323px;
@@ -939,11 +1002,13 @@ button{
   .section3-text-contents {
     width: 100%;
     padding-left: 0;
+    margin-left: 0;
   }
   .section3-content img {
     height: 180px;
     width: 100%;
     object-fit: cover;
+    
   }
   .section3-text-contents h1 {
     font-size: 24px;
@@ -1157,16 +1222,30 @@ button{
   letter-spacing: -0.01px;
   border-radius: 9999px;
 }
+
+@media screen and (max-width:1024px){
+  .section5-text-contents {
+    margin-left: 25px;
+  }
+  .section5-content img {
+    width:546px;
+    height: 500px;
+    object-fit: cover;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .section5-content img {
     width: 345px;
     height: 500px;
     object-fit: cover;
+  
   }
   .section5-text-contents {
     padding-left: 20px;
     width: 323px;
-    margin-right: 75px;
+    margin-right: 55px;
   }
   .section5-text-contents p {
     width: 323px;
@@ -1281,6 +1360,29 @@ button{
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width:1024px){
+  .grid-sections {
+  max-width: 980px;
+  margin: 40px auto;
+  gap: 40px;
+}
+ .grid-box{
+    width: 472px;
+    height: 655px;
+}
+ .grid-box img {
+    height: 100%;
+    height: 100%
+}
+.section6{
+  padding: 80px 0 0 0;
+  
+}
+
+}
+
+
 @media screen and (max-width:768px){
   .grid-box {
     width: 344px;
@@ -1295,6 +1397,9 @@ button{
 .grid-sections{
   gap: 25px;
   padding-left: 20px;
+}
+.grid-sections{
+  row-gap: 0;
 }
 }
 
@@ -1315,7 +1420,8 @@ button{
   .grid-sections .grid-box {
      width: 344px;
     margin-right: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 0;
+    height: 400px;
   }
   .grid-sections .grid-box:nth-child(1) {
     margin-left: 40px
@@ -1865,6 +1971,7 @@ button{
 }
 .sub-footer-first-section div:nth-child(1) div:nth-child(1) {
   margin-right: 15px;
+  padding-top: 4px;
 }
 .sub-footer-first-section div:nth-child(1) div:nth-child(2) {
   margin-right: 20px;
@@ -2144,3 +2251,7 @@ button{
     justify-content: center;
   }
 }
+
+
+
+
