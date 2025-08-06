@@ -189,6 +189,11 @@ button{
   letter-spacing: 0.01px;
   margin: 20px 0 17px 0px;
 }
+.address-input:focus{
+  border: 2px solid rgb(0, 85, 255);
+  outline: none;
+}
+
 .input-address-box {
   position: relative;
 }
@@ -309,6 +314,61 @@ button{
   left: 160px;
   top: 8px;
 }
+
+/*small screen browse app css*/
+
+
+.small-screen-browse-app{
+  width: 335px;
+  height: 161px;
+  margin: 20px auto;
+  background-color: #F7F7F7;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.small-screen-browse-app div:nth-child(1){
+  display: flex;
+  gap: 10px;
+  width: 293px;
+}
+.small-screen-browse-app div:nth-child(1) p{
+  line-height: 20px;
+  letter-spacing: -0.01px;
+}
+.small-screen-browse-app div:nth-child(1) p:nth-child(1){
+  font-family: TTNorms-bold;
+}
+.small-screen-browse-app div:nth-child(1) p:nth-child(2){
+  margin-bottom: 8px;
+}
+.small-screen-browse-app div:nth-child(1) p:nth-child(3){
+  font-family: TTNorms-medium;
+}
+.small-screen-browse-app div:nth-child(1) div:nth-child(1){
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+}
+.c-in-app{
+  width: 293px;
+  height: 40px;
+  background-color: #EB1700;
+  color: white;
+  font-family: TTNorms-bold;
+  border-radius: 9999px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /*tablet view*/
 @media screen and (max-width: 768px) {
@@ -458,6 +518,11 @@ button{
   .tbv-btn{
     display: none;
   }
+  .small-screen-browse-app{
+    display: flex;
+    margin-bottom: 0;
+  }
+  
 }
   @media screen and (max-width: 400px) {
     .signin-btn {
@@ -634,6 +699,9 @@ button{
   color: #eb1700ff;
   letter-spacing: -0.01px;
 }
+.t1-s {
+    display: none;
+  }
 
 @media screen and (max-width: 768px) {
   .options {
@@ -688,14 +756,9 @@ button{
   .t2-s {
     display: flex;
   }
-}
-@media screen and (min-width: 500px) {
   .t1-s {
-    display: none;
+    display: flex;
   }
-}
-
-@media screen and (max-width: 500px) {
   .options {
     flex-direction: column;
     gap: 20px;
@@ -734,9 +797,10 @@ button{
       .sub-options div:nth-child(1) {
         margin-right:0;
       }
+      .options{
+        margin-top: 50px;
+      }
 }
-
-
 
 /*section three css*/
 
@@ -2080,8 +2144,3 @@ button{
     justify-content: center;
   }
 }
-
-
-
-
-
