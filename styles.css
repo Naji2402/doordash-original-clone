@@ -100,10 +100,13 @@ button{
   height: 100%;
   display: flex;
   align-items: center;
+  gap: 15px;
 }
 .middle-header-section span {
   margin-top: 3px;
-  margin-right: 10px;
+  position: relative;
+    left: 3px;
+    top: 0.80px;
 }
 .left-header-section {
   display: flex;
@@ -158,7 +161,7 @@ button{
   margin-top: 11px;
 }
 .section1-content {
-  margin-top: 50px;
+  margin-top: 69px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -174,7 +177,7 @@ button{
   
 }
 .address-input {
-  padding: 8px 8px 8px 52px;
+  padding: 9px 8px 8px 56px;
   width: 408px;
   height: 56px;
   border: none;
@@ -196,10 +199,11 @@ button{
 
 .input-address-box {
   position: relative;
+  bottom: 3px;
 }
 .input-address-box .location-icon {
   position: absolute;
-  left: 17px;
+  left: 20px;
   top: 36px;
 }
 .input-address-box .search-icon {
@@ -234,15 +238,16 @@ button{
   justify-content: center;
   position: relative;
   margin-left: 100px;
-  padding-right: 74px;
+  padding-right: 101px;
+  top: -4px;
 }
 .t1 svg {
   position: absolute;
-  top: 9px;
-  left: 24px;
+  top: 8px;
+  left: 14px;
 }
 .t1 p {
-    padding: 8px 5px 0px 16px;
+    padding: 8px 5px 0px 25px;
     border-radius: 9999px;
     font-size: 14px;
     font-family: TTNorms-bold;
