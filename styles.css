@@ -417,6 +417,9 @@ button{
 }
 
 @media screen and (max-width: 500px) {
+  .section1 {
+    background-position: 53% 50%;
+}
   .doordash-logo-hidden {
     display: flex;
   }
