@@ -1226,11 +1226,13 @@ button{
 @media screen and (max-width:1024px){
   .section5-text-contents {
     margin-left: 25px;
+    margin-right: 30px;
   }
   .section5-content img {
     width:546px;
     height: 500px;
     object-fit: cover;
+    margin-right: 20px;
   }
 }
 
@@ -2069,16 +2071,25 @@ button{
 @media screen and (max-width:1024px){
   .footer-grids {
     width: 984px;
-    padding-left: 10px;
+    padding-left: 20px;
   }
   .footer h2{
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .download-options{
     position: relative;
     top: -32px;
-    left: -22px;
+    left: -32px;
   }
+  .sub-footer-first-section div:nth-child(2) div:nth-child(2) {
+    margin-right: 17px;
+  }
+  .sub-footer-first-section div:nth-child(1) {
+    padding-left: 11px;
+}
+.sub-footer-second-section {
+  margin-right: 0;
+}
 
 }
 
@@ -2166,6 +2177,9 @@ button{
     text-align: center;
     margin-top: 32px;
     margin-bottom: 8px;
+  }
+   .footer h2{
+    margin-left: 0;
   }
   .footer-grid-sections {
     width: 100%;
@@ -2303,3 +2317,4 @@ button{
     justify-content: center;
   }
 }
+
