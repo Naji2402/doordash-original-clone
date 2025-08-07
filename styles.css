@@ -2158,9 +2158,12 @@ button{
   .sub-footer-second-section {
       margin-right: 4px;
   }
-  .sub-footer-first-section div:nth-child(1) div:nth-child(1) {
-    margin-top: 6px;
-  }
+      .footer h2 {
+        margin-left: 0;
+      }
+      .footer-grids{
+        padding-left: 0;
+      }
 }
 @media screen and (max-width: 500px) {
  
