@@ -345,9 +345,14 @@ button{
 }
 .small-screen-browse-app div:nth-child(1) p:nth-child(1){
   font-family: TTNorms-bold;
+  font-size: 18px;
+  margin-bottom: 2px;
 }
 .small-screen-browse-app div:nth-child(1) p:nth-child(2){
-  margin-bottom: 8px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  margin-left: 4px;
+  color: #606060ff;
 }
 .small-screen-browse-app div:nth-child(1) p:nth-child(3){
   font-family: TTNorms-medium;
@@ -699,6 +704,7 @@ button{
   font-weight: 700;
   line-height: 42px;
   margin-bottom: 2px;
+  font-family: TTNorms-medium;
 }
 .sub-options h4 {
   color: #191919ff;
@@ -846,7 +852,7 @@ button{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 238px;
+    height: 230px;
     text-align: left;
     margin-right: 33px;
   }
@@ -1166,10 +1172,13 @@ button{
     font-size: 24px;
     height: 56px;
     line-height: 28px;
+    width: 370px;
+    font-family: TTNorms-medium;
   }
   .section4-blur h4 {
     font-size: 18px;
     margin-top: 10px;
+    font-family: TTNorms-medium;
   }
   .section4-blur p {
     font-size: 14px;
@@ -1183,11 +1192,14 @@ button{
   .section4 {
     margin-bottom: 0;
   }
-}
-@media screen and (max-width: 500px) {
+  .section4-blur{
+    padding-top: 23px;
+  }
   .section4-blur p {
     width: 400px;
+    
   }
+  
 }
 @media screen and (max-width: 400px) {
   .section4-blur h1 {
