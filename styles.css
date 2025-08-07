@@ -813,7 +813,7 @@ button{
   }
   .options {
     flex-direction: column;
-    gap: 20px;
+    gap: 0;
     width: 100%;
     padding: 0;
     max-width: none;
@@ -837,11 +837,13 @@ button{
     width: 100%;
     height: 238px;
     text-align: left;
+    margin-right: 33px;
   }
   .sub-options div:nth-child(2) {
     width: 250px;
     height: auto;
-    padding-left: 25px;
+    padding-left: 30px;
+    padding-bottom: 24px;
   }
   .sub-options-link a {
     font-size: 14px;
@@ -851,6 +853,9 @@ button{
       }
       .options{
         margin-top: 50px;
+      }
+      .sub-options h4 {
+        width: 250px;
       }
 }
 
@@ -1583,6 +1588,7 @@ button{
     padding-left: 20px;
     width: 382px;
     margin-right: 55px;
+    margin-left: 0;
   }
 }
 
@@ -2099,9 +2105,7 @@ button{
 .sub-footer-second-section {
   margin-right: 0;
 }
-
 }
-
 
 
 
@@ -2256,7 +2260,7 @@ button{
    
   }
   .footer-main-section {
-        padding-left: 0;
+    padding-left: 0;
   }
   .sub-footer-main {
     width: 100vw;
