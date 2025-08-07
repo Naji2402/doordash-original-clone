@@ -262,7 +262,7 @@ button{
 }
 .s-screen-btns {
   display: none;
-  gap: 10px;
+  gap: 8px;
   position: absolute;
   top: 110px;
   right: 25px;
@@ -319,7 +319,7 @@ button{
 
 
 .small-screen-browse-app{
-  width: 335px;
+  width: 360px;
   height: 161px;
   margin: 20px auto;
   background-color: #F7F7F7;
@@ -332,7 +332,7 @@ button{
 .small-screen-browse-app div:nth-child(1){
   display: flex;
   gap: 10px;
-  width: 293px;
+  width: 318px;
 }
 .small-screen-browse-app div:nth-child(1) p{
   line-height: 20px;
@@ -363,10 +363,17 @@ button{
   color: white;
   font-family: TTNorms-bold;
   border-radius: 9999px;
-  margin-top: 20px;
+  margin-top: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.small-screen-browse-app div:nth-child(1) div:nth-child(1) svg{
+  width: 32px;
+  height: 18px;
+}
+.small-screen-browse-app div:nth-child(1) div:nth-child(2) div p{
+  margin-top: -5px;
 }
 
 
@@ -484,7 +491,7 @@ button{
     display: none;
   }
   .doordash-logo-small-size-display div:nth-child(1) {
-    padding: 12px 9px 10px 4px;
+    padding: 12px 8px 12px 4px;
     border: 1px solid #f1f1f1ff;
     border-radius: 10px;
     width: 64px;
@@ -572,6 +579,7 @@ button{
 .ratings-star {
   display: flex;
   gap: 2px;
+  margin-left: 2px;
 }
 .ratings-star p {
   margin-top: -2px;
@@ -590,13 +598,14 @@ button{
   font-size: 14px;
   font-weight: 600;
   font-family: TTNorms-regular;
-  letter-spacing: -0.01px;
+  letter-spacing: 0.10px;
   color: #606060ff;
 }
 .small-size-texts p:nth-child(1) {
   margin-bottom: 4px;
   font-weight: 700;
   font-family: TTNorms-medium;
+  letter-spacing: 0.15px;
 }
 
 .t1-s {
