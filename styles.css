@@ -706,7 +706,7 @@ button{
   font-size: 32px;
   font-weight: 700;
   line-height: 42px;
-  margin-bottom: 2px;
+  margin-bottom: -2px;
   font-family: TTNorms-medium;
 }
 .sub-options h4 {
@@ -716,6 +716,7 @@ button{
   line-height: 24px;
   letter-spacing: -0.01px;
   margin-bottom: 6px;
+  font-family: TTNorms-medium;
 }
 .sub-options div:nth-child(2) {
   width: 250px;
@@ -727,6 +728,7 @@ button{
   font-weight: 700;
   color: #eb1700ff;
   letter-spacing: -0.01px;
+  font-family: TTNorms-medium;
 }
 .t1-s {
     display: none;
