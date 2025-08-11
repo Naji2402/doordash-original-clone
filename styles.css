@@ -78,6 +78,8 @@ button{
   width: 81px;
   height: 40px;
   border-radius: 9999px;
+  padding-bottom: 1px;
+  letter-spacing: 0.5px;
 }
 .signup-btn {
   font-size: 18px;
@@ -88,7 +90,10 @@ button{
   width: 90px;
   height: 40px;
   border-radius: 9999px;
+  padding-bottom: 1px;
+  letter-spacing: 0.5px;
 }
+
 .middle-header-section {
   display: flex;
   justify-content: center;
@@ -190,7 +195,7 @@ button{
   line-height: 22px;
   font-weight: 550;
   letter-spacing: 0.01px;
-  margin: 20px 0 17px 0px;
+  margin: 20px 0 18px 0px;
 }
 .address-input:focus{
   border: 2px solid rgb(0, 85, 255);
@@ -222,6 +227,7 @@ button{
     border: none;
     color: white;
     height: 40px;
+    padding-top: 4px;
 }
 .auto-sign-in-option {
   width: 203px;
@@ -897,8 +903,10 @@ button{
   margin-right: 50px;
 }
 .section3-text-contents h1 {
+  font-family: TTNorms-medium;
   font-size: 40px;
-  line-height: 43px;
+  line-height: 40px;
+  font-weight: 700;
   letter-spacing: -0.01px;
 }
 .section3-text-contents h4 {
@@ -2113,7 +2121,7 @@ button{
 }
 @media screen and (max-width:1024px){
   .footer-grids {
-    width: 984px;
+    width: 1000px;
     padding-left: 20px;
   }
   .footer h2{
@@ -2122,7 +2130,7 @@ button{
   .download-options{
     position: relative;
     top: -32px;
-    left: -32px;
+    left: -17px;
   }
   .sub-footer-first-section div:nth-child(2) div:nth-child(2) {
     margin-right: 17px;
@@ -2361,9 +2369,3 @@ button{
     justify-content: center;
   }
 }
-
-
-
-
-
-
