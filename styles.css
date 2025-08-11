@@ -1972,6 +1972,16 @@ button{
   width: 24px;
   height: 24px;
 }
+@media screen and (max-width:1024px){
+  .section9-options-list ul:nth-child(4){
+    display: none;
+  }
+  .section9-options-list ul:nth-child(3) {
+    margin-right: 250px;
+  }
+}
+
+
 @media screen and (max-width:768px){
   .section9-header-options{
     width: 768px;
@@ -2013,6 +2023,9 @@ button{
   }
   .see-more-header{
     width: 100vw;
+  }
+  .section9-options-list ul:nth-child(4){
+    display: block;
   }
 }
 @media screen and (max-width: 400px) {
@@ -2443,7 +2456,5 @@ button{
     justify-content: center;
   }
 }
-
-
 
 
