@@ -2026,11 +2026,11 @@ button{
 .footer {
   background: #191919ff;
   width: 100%;
-  min-height: 800px;
+  min-height:745px;
   max-height: auto;
 }
 .footer-main-section {
-  width: 1160px;
+  width: 1120px;
   margin: 0 auto;
 }
 .footer-main-section h2 {
@@ -2040,7 +2040,7 @@ button{
   line-height: 22px;
   letter-spacing: -0.01px;
   width: 100%;
-  margin: 40px 0 20px 0;
+  margin: 30px 0 5px 0;
 }
 
 .footer-grid-sections li {
@@ -2098,7 +2098,7 @@ button{
 
 /*sub-footer css*/
 .sub-footer {
-  min-height: 80px;
+  min-height: 90px;
   max-height: auto;
   width: 100%;
   background: #191919ff;
@@ -2106,7 +2106,7 @@ button{
   align-items: center;
 }
 .sub-footer-main {
-  width: 1160px;
+  width: 1120px;
   margin: 0 auto;
   height: 100%;
   display: flex;
@@ -2133,44 +2133,45 @@ button{
   padding-top: 4px;
 }
 .sub-footer-first-section div:nth-child(1) div:nth-child(2) {
-  margin-right: 20px;
+  margin-right: 15px;
 }
 .sub-footer-first-section div:nth-child(1) div:nth-child(3) {
-  margin-right: 20px;
+  margin-right: 15px;
   margin-bottom: 5px;
 }
 .sub-footer-first-section div:nth-child(1) div:nth-child(4) {
-  margin-right: 20px;
+  margin-right: 15px;
   margin-bottom: 5px;
 }
 .sub-footer-first-section div:nth-child(2) div:nth-child(1) {
-  margin-right: 20px;
+  margin-right: 15px;
 }
 .sub-footer-first-section div:nth-child(2) div:nth-child(2) {
-  margin-right: 90px;
+  margin-right: 100px;
 }
 .sub-footer-second-section {
-  margin-right: 90px;
+  margin-right: 65px;
   color: black;
   position: relative;
   width: 150px;
   height: 32px;
+  font-family: TTNorms-medium;
   border-radius: 9999px;
   background-color: #f1f1f1;
   font-size: 14px;
   line-height: 20px;
   font-weight: 500;
-  padding: 5px 0px 0px 40px;
+  padding: 6px 0px 0px 45px;
 }
 .sub-footer-second-section svg {
   position: absolute;
-  left: 9px;
-  top: 4px;
+  left: 12px;
+  top: 5px;
 }
 .sub-footer-second-section i {
   position: absolute;
-  right: 23px;
-  top: 5px;
+  right: 15px;
+  top: 7px;
   font-size: 17px;
 }
 .fist-section-second-sub-footer{
@@ -2179,15 +2180,15 @@ button{
 }
 
 .sub-footer-third-section {
-  margin-right: 20px;
   width: 96px;
   display: flex;
   flex: 1;
   justify-content: end;
+  align-items: center;
   gap: 10px;
 }
-.sub-footer-third-section svg {
-  fill: #c4c4c4;
+.sub-footer-third-section svg path {
+  fill: rgb(196, 196, 196);
 }
 .sub-footer a{
   font-family: TTNorms-medium;
@@ -2442,4 +2443,7 @@ button{
     justify-content: center;
   }
 }
+
+
+
 
