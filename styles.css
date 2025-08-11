@@ -716,9 +716,9 @@ button{
   justify-content: center;
   align-items: center;
   width: 1104px;
-  margin: 90px auto;
+  margin: 124px auto;
   gap: 110px;
-  padding-right: 55px;
+  padding-right: 65px;
 }
 .sub-options {
   display: flex;
@@ -734,8 +734,10 @@ button{
 .sub-options h1 {
   font-size: 32px;
   font-weight: 700;
-  line-height: 42px;
-  margin-bottom: -2px;
+  line-height: 40px;
+  letter-spacing: -0.01px;
+  margin-bottom: 8px;
+  margin-right: 15px;
   font-family: TTNorms-medium;
 }
 .sub-options h4 {
@@ -765,11 +767,12 @@ button{
   @media screen and (max-width: 1024px){
     .options {
     flex-direction: column;
-    gap: 20px;
+    gap: 0;
     width: 100%;
     padding: 0;
     max-width: none;
     max-height: none;
+    margin: 38px auto;
   }
   .section2 {
     width: 100%;
@@ -779,7 +782,7 @@ button{
   .sub-options img {
     width: 124px;
     height: 124px;
-    margin-bottom: 75px;
+    margin-bottom: 65px;
   }
 
   .sub-options {
@@ -787,7 +790,7 @@ button{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 238px;
+    height: 228px;
     text-align: left;
   }
   .sub-options div:nth-child(2) {
@@ -923,14 +926,15 @@ button{
   justify-content: center;
   flex-direction: column;
   width: 400px;
-  margin-right: 50px;
+  margin-right: 62px;
 }
 .section3-text-contents h1 {
   font-family: TTNorms-medium;
   font-size: 40px;
   line-height: 40px;
   font-weight: 700;
-  letter-spacing: -0.01px;
+  letter-spacing: 1px;
+  margin-top: 27px;
 }
 .section3-text-contents h4 {
   font-size: 20px;
@@ -940,7 +944,7 @@ button{
 }
 .section3-text-contents p {
   font-size: 16px;
-  margin-top: 20px;
+  margin-top: 10px;
   letter-spacing: -0.01px;
   font-weight: 500;
   line-height: 22px;
@@ -954,7 +958,7 @@ button{
   border: none;
   color: white;
   background-color: #eb1700ff;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 16px;
   font-weight: 700;
   line-height: 22px;
