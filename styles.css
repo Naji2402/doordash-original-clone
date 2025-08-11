@@ -772,7 +772,7 @@ button{
     padding: 0;
     max-width: none;
     max-height: none;
-    margin: 38px auto;
+    margin: 38px auto 80px auto;
   }
   .section2 {
     width: 100%;
@@ -1028,36 +1028,48 @@ button{
     width:524px;
     height: 500px;
     object-fit: cover;
-     margin-left: 25px;
+     margin-left: 20px;
+  }
+  .section3-text-contents {
+    margin-right: 53px
+  }
+  .section3p2-text-contents h1{
+    width: 360px;
+  }
+  .section3p2-text-contents{
+    margin-left: 60px;
+  }
+  .section3p2-text-contents button{
+    margin-top: 30px;
   }
 }
 
 
 @media screen and (max-width: 768px) {
   .section3-content img {
-    width: 345px;
+    width: 293px;
     height: 500px;
     object-fit: cover;
     margin-right: 20px;
   }
   .section3-text-contents {
-    padding-left: 20px;
     width: 323px;
-    margin-right: 60px;
+    margin-left: 20px;
+    margin-right: 104px;
+    margin-bottom: 20px;
   }
   .section3-text-contents p {
     width: 323px;
   }
   .section3p2-content img {
-    width: 345px;
+    width: 303px;
     height: 500px;
     object-fit: cover;
     margin-left: 20px;
   }
   .section3p2-text-contents {
-    padding-left: 20px;
+    padding-left: 0;
     width: 323px;
-    margin-right: 75px;
   }
   .section3p2-text-contents p {
     width: 323px;
@@ -1083,6 +1095,7 @@ button{
   }
   .section3-text-contents h1 {
     font-size: 24px;
+    margin-top: 20px;
   }
   .section3-text-contents h4 {
     font-size: 18px;
@@ -1098,6 +1111,7 @@ button{
     height: 32px;
     width: 130px;
     font-weight: 700;
+    margin-top: 20px;
     font-family: TTNorms-medium;
   }
 
@@ -1120,6 +1134,7 @@ button{
   }
   .section3p2-text-contents h1 {
     font-size: 24px;
+    margin-top: 20px;
   }
   .section3p2-text-contents p {
     font-size: 14px;
@@ -1128,11 +1143,13 @@ button{
   }
   .section3p2 {
     margin-top: -290px;
+    padding-bottom: 20px;
   }
   .section3p2-text-contents button {
     font-size: 14px;
     height: 32px;
     width: 130px;
+    margin-top: 20px;
   }
     
 }
@@ -1231,6 +1248,7 @@ button{
   }
   .section4 {
     margin-bottom: 0;
+    margin-top: 0;
   }
   .section4-blur{
     padding-top: 23px;
