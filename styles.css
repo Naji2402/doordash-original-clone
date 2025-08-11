@@ -999,7 +999,7 @@ button{
   line-height: 22px;
 }
 .section3p2-content img {
-  width: 695px;
+  width: 724px;
 }
 .section3p2-text-contents button {
   height: 40px;
@@ -1175,28 +1175,30 @@ button{
   align-items: center;
   flex-direction: column;
 }
-.section4-blur h1 {
+.section4-blur h2 {
   font-size: 40px;
   line-height: 40px;
-  letter-spacing: -0.01px;
-  color: white;
+  letter-spacing: 1px;
+  color: #FFFFFF;
   width: 495px;
   height: 120px;
   text-align: center;
+  font-family: TTNorms-medium;
+  overflow-y: hidden;
 }
 .section4-blur h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 20px;
-  letter-spacing: -0.01px;
+  letter-spacing: 1px;
   color: white;
-  width: 382px;
   height: 24px;
   text-align: center;
+  font-family: TTNorms-medium;
 }
 .section4-blur p {
   font-size: 16px;
-  margin-top: 20px;
+  margin-top: 10px;
   letter-spacing: -0.01px;
   font-weight: 500;
   line-height: 22px;
@@ -1204,6 +1206,7 @@ button{
   width: 550px;
   height: 44px;
   text-align: center;
+  font-family: TTNorms-medium;
 }
 .section4-blur button {
   height: 40px;
@@ -1211,9 +1214,10 @@ button{
   border: none;
   color: white;
   background-color: #eb1700ff;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 16px;
   font-weight: 700;
+  font-family: TTNorms-medium;
   line-height: 22px;
   letter-spacing: -0.01px;
   border-radius: 9999px;
@@ -1225,12 +1229,13 @@ button{
     width: 100%;
     margin-top: 30px;
   }
-  .section4-blur h1 {
+  .section4-blur h2 {
     font-size: 24px;
     height: 56px;
     line-height: 28px;
     width: 370px;
     font-family: TTNorms-medium;
+
   }
   .section4-blur h4 {
     font-size: 18px;
@@ -1260,7 +1265,7 @@ button{
   
 }
 @media screen and (max-width: 400px) {
-  .section4-blur h1 {
+  .section4-blur h2 {
     width: 337px;
   }
   .section4-blur h4 {
@@ -1287,18 +1292,21 @@ button{
   justify-content: center;
   flex-direction: column;
   width: 400px;
-  margin-right: 50px;
+  margin-right: 60px;
 }
 .section5-text-contents h1 {
   font-size: 40px;
   line-height: 43px;
   letter-spacing: -0.01px;
+  width: 350px;
+  font-family: TTNorms-medium;
 }
 .section5-text-contents p {
   font-size: 16px;
   margin-top: 20px;
   letter-spacing: -0.01px;
   font-weight: 500;
+  font-family: TTNorms-medium;
   line-height: 22px;
 }
 .section5-content img {
@@ -1306,11 +1314,12 @@ button{
 }
 .section5-text-contents button {
   height: 40px;
-  width: 146px;
+  width: 100px;
   border: none;
   color: white;
+  font-family: TTNorms-medium;
   background-color: #eb1700ff;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 16px;
   font-weight: 700;
   line-height: 22px;
@@ -1340,7 +1349,6 @@ button{
   
   }
   .section5-text-contents {
-    padding-left: 20px;
     width: 323px;
     margin-right: 55px;
   }
@@ -1358,6 +1366,7 @@ button{
   .section5-text-contents {
     width: 100%;
     padding-left: 0;
+    margin-left: 0;
   }
   .section5-content img {
     height: 180px;
@@ -1370,11 +1379,13 @@ button{
   .section5-text-contents p {
     font-size: 14px;
     margin-top: 10px;
+    width: 375px;
   }
   .section5-text-contents button {
     font-size: 14px;
     height: 32px;
-    width: 130px;
+    width: 90px;
+    margin-top: 20px;
   }
   .section5 {
     margin-top: 20px;
