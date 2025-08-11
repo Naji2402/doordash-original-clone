@@ -401,7 +401,7 @@ button{
     height: 56px;
     letter-spacing: 0;
     line-height: 28px;
-    margin-top: 15px;
+    margin-top: -5px;
   }
   .t1 {
     display: none;
@@ -419,6 +419,23 @@ button{
   }
   .tbv-btn{
     display: flex;
+  }
+  .middle-header-section div{
+    gap: 11px;
+    padding-bottom: 5px;
+  }
+  .section1-content {
+    margin-top: 74px;
+  }
+  .address-input{
+    margin: 26px 0 14px 0px;
+    
+  }
+  .input-address-box .location-icon {
+    top: 43px;
+  }
+  .ar-btn {
+    top: 34px;
   }
 }
 
@@ -450,9 +467,9 @@ button{
     font-weight: 900;
     max-width: 350px;
     line-height: 28px;
-    margin-top: 20px;
+    margin-top: 21px;
     position: relative;
-    top: -3px;
+    top: -4px;
   }
   .input-address-box .location-icon {
     display: none;
@@ -553,6 +570,12 @@ button{
   }
   .address-input{
     padding: 8px 8px 8px 51px;
+  }
+  .address-input {
+     margin: 20px 0 0 0px;
+  }
+  .t1-s-main {
+    margin-top: 16px;
   }
   
 }
