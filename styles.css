@@ -20,10 +20,7 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  /* font-family:var(--extrabold); */
-  font-family: TTNormsProCond-Blk, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji","Segoe UI Symbol";
 }
 h1,
 h4,
@@ -1076,6 +1073,8 @@ button{
   }
 }
 
+
+
 @media screen and (max-width: 500px) {
   .section3-content {
     flex-direction: column-reverse;
@@ -1411,6 +1410,7 @@ button{
   margin-top: 60px;
   column-gap: 10px;
   row-gap: 50px;
+  padding-left: 20px;
 }
 .grid-main-heading {
   width: 100%;
@@ -1432,21 +1432,25 @@ button{
   font-weight: 700;
   line-height: 40px;
   text-align: center;
+  font-family: TTNorms-medium;
 }
 .grid-sections h1 {
   font-size: 40px;
   text-align: center;
   line-height: 40px;
-  color: black;
+  color: #191919;
+  font-weight: 700;
+  font-family: TTNorms-medium;
   letter-spacing: -0.01px;
   margin-top: 20px;
 }
 .grid-sections p {
   font-size: 16px;
   text-align: center;
-  color: black;
+  color: #191919;
   letter-spacing: -0.01px;
   margin-top: 20px;
+  font-family: TTNorms-medium;
 }
 
 .grid-sections button {
@@ -1625,13 +1629,15 @@ button{
   justify-content: center;
   flex-direction: column;
   width: 400px;
-  margin-right: 50px;
+  margin-right: 60px;
 }
 .section7-text-contents h1 {
   font-size: 40px;
-  line-height: 43px;
+  line-height: 40px;
   letter-spacing: -0.01px;
-  width: 360px;
+  font-family: TTNorms-medium;
+  width: 350px;
+  height: 84px;
 }
 .section7-text-contents p {
   font-size: 16px;
@@ -1649,7 +1655,7 @@ button{
   border: none;
   color: white;
   background-color: #eb1700ff;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 16px;
   font-weight: 700;
   line-height: 22px;
@@ -1709,6 +1715,8 @@ button{
   }
   .section7-text-contents h1 {
     font-size: 24px;
+    height: auto;
+    margin-top: 20px;
   }
   .section7-text-contents p {
     font-size: 14px;
@@ -1718,6 +1726,7 @@ button{
     font-size: 14px;
     height: 32px;
     width: 130px;
+    margin-top: 20px;
   }
   .section7-text-contents{
     padding-left: 0;
@@ -1749,7 +1758,7 @@ button{
   justify-content: center;
   flex-direction: column;
   width: 400px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 .section8-text-contents h1 {
@@ -1757,6 +1766,7 @@ button{
   line-height: 40px;
   width: 340px;
   letter-spacing: -0.01px;
+  font-family: TTNorms-medium;
 }
 .section8-text-contents p {
   font-size: 16px;
@@ -1764,9 +1774,11 @@ button{
   letter-spacing: -0.01px;
   font-weight: 500;
   line-height: 22px;
+  font-family: TTNorms-medium;
 }
 .section8-content img {
-  width: 695px;
+  width: 724px;
+  height: 500px;
 }
 .section8-text-contents button {
   height: 40px;
@@ -1825,6 +1837,7 @@ button{
   .section8-text-contents {
     width: 100%;
     margin-left: 0;
+    padding-bottom: 20px;
   }
   .section8-content img {
     height: 180px;
@@ -1833,10 +1846,13 @@ button{
   }
   .section8-text-contents h1 {
     font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
   }
   .section8-text-contents p {
     font-size: 14px;
     margin-top: 10px;
+    line-height: 20px;
   }
   .section8 {
     margin-top: -290px;
@@ -1844,7 +1860,8 @@ button{
   .section8-text-contents button {
     font-size: 14px;
     height: 32px;
-    width: 130px;
+    width: 139px;
+    margin-top: 20px;
   }
   .section8-image {
       margin-left: 0;
@@ -2425,3 +2442,4 @@ button{
     justify-content: center;
   }
 }
+
