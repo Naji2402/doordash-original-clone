@@ -894,7 +894,7 @@ button{
     width: 250px;
     height: auto;
     padding-left: 30px;
-    padding-bottom: 24px;
+    padding-bottom: 17px;
   }
   .sub-options-link a {
     font-size: 14px;
@@ -1408,8 +1408,8 @@ button{
   max-width: 1184px;
   margin: 0 auto;
   margin-top: 60px;
-  column-gap: 10px;
-  row-gap: 50px;
+  column-gap: 20px;
+  row-gap: 40px;
   padding-left: 20px;
 }
 .grid-main-heading {
@@ -1420,9 +1420,28 @@ button{
 .grid-box {
   width: 552px;
 }
+.grid-box:nth-child(1) button{
+  width: 117px;
+  padding-bottom: 2px;
+}
+.grid-box:nth-child(2) button{
+  width: 124px;
+  padding-bottom: 1px;
+}
+.grid-box:nth-child(2) h1{
+  height: 45px;
+}
+.grid-box:nth-child(3) button{
+  width: 123px;
+} 
+.grid-box:nth-child(4) button{
+  width: 149px;
+}
+
 .grid-box img {
   width: 100%;
   height: 552px;
+  object-fit: cover;
 }
 .grid-main-heading h1 {
   font-size: 32px;
@@ -1441,7 +1460,7 @@ button{
   color: #191919;
   font-weight: 700;
   font-family: TTNorms-medium;
-  letter-spacing: -0.01px;
+  letter-spacing: 0.03px;
   margin-top: 20px;
 }
 .grid-sections p {
@@ -1449,6 +1468,7 @@ button{
   text-align: center;
   color: #191919;
   letter-spacing: -0.01px;
+  line-height: 20px;
   margin-top: 20px;
   font-family: TTNorms-medium;
 }
@@ -1459,7 +1479,7 @@ button{
   border: none;
   color: white;
   background-color: #eb1700ff;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 16px;
   font-weight: 700;
   line-height: 22px;
@@ -1472,32 +1492,57 @@ button{
   align-items: center;
   justify-content: center;
 }
+.grid-box:nth-child(3) .grid-text-section p{
+  width: 100%;
+  text-align: center;
+}
 
 @media screen and (max-width:1024px){
   .grid-sections {
   max-width: 980px;
   margin: 40px auto;
   gap: 40px;
+  padding-left: 0;
 }
- .grid-box{
+.grid-text-section{
+  height: 234px;
+}
+
+.grid-box{
     width: 472px;
-    height: 655px;
+    height: 746px;
 }
  .grid-box img {
-    height: 100%;
-    height: 100%
+    height: 472px;
+    width: 100%;
 }
 .section6{
   padding: 80px 0 0 0;
   
 }
-
+.grid-box:nth-child(3) .grid-text-section button{
+  margin-top: 25px;
+}
+.grid-box:nth-child(3) .grid-text-section p{
+  margin-top: 18px;
+}
+.grid-box:nth-child(2) .grid-text-section{
+  height: 230px;
+}
+.grid-box:nth-child(2) .grid-text-section h1{
+  width: 424px;
+  height: 80px;
+}
+.grid-box:nth-child(2) .grid-text-section p{
+  width: 422px;
+}
 }
 
 
 @media screen and (max-width:768px){
   .grid-box {
     width: 344px;
+    height: 658px;
   }
   .grid-box div:nth-child(1) {
     height: 344px;
@@ -1506,9 +1551,19 @@ button{
     object-fit: cover;
     height: 100%
 }
+.grid-text-section{
+  height: 274px;
+}
+.grid-box:nth-child(3) .grid-text-section {
+  height: 296px;
+}
+.grid-box:nth-child(1) h1{
+  width: 309px;
+}
 .grid-sections{
   gap: 25px;
   padding-left: 20px;
+  margin-bottom: 0;
 }
 .grid-sections{
   row-gap: 0;
@@ -1553,10 +1608,12 @@ button{
     font-size: 24px;
     line-height: 28px;
     width: 308px;
+    margin-top: 20px;
   }
   .grid-sections p {
     font-size: 14px;
     width: 343px;
+    margin-top: 10px;
   }
   .grid-box .text-section3 p:nth-last-child(1){
     font-size: 12px;
@@ -1565,6 +1622,7 @@ button{
     height: 32px;
     width: 120px;
     font-size: 14px;
+    margin-top: 20px;
   }
   .grid-main-heading {
     width: 100%;
@@ -1577,6 +1635,36 @@ button{
   .grid-sections {
      margin-top: 20px;
     }
+    .grid-text-section{
+      height: 174px;
+    }
+    .grid-box:nth-child(3) .grid-text-section {
+      height: 198px;
+}   
+     .grid-box:nth-child(3) .grid-text-section button{
+      margin-top: 20px;
+}
+ .grid-box:nth-child(3) .grid-text-section h1{
+      margin-top: 20px;
+}
+ .grid-box:nth-child(3) .grid-text-section p{
+      margin-top: 10px;
+}
+ .grid-box:nth-child(4) .grid-text-section {
+      height: 198px;
+}   
+.grid-box:nth-child(2) .grid-text-section h1{
+  height: 28px;
+}
+.grid-box:nth-child(2) .grid-text-section {
+  width: 343px;
+  height: 150px;
+}
+.grid-box:nth-child(2) .grid-text-section p{
+  width: 343px;
+  height: 40px;
+}
+
 
 }
 @media screen and (max-width: 400px) {
