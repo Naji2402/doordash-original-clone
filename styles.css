@@ -893,14 +893,13 @@ button{
   .sub-options div:nth-child(2) {
     width: 250px;
     height: auto;
-    padding-left: 30px;
     padding-bottom: 17px;
   }
   .sub-options-link a {
     font-size: 14px;
   }
       .sub-options div:nth-child(1) {
-        margin-right:0;
+        margin:0 32px;
       }
       .options{
         margin-top: 50px;
