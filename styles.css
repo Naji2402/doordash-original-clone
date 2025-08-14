@@ -893,7 +893,7 @@ button{
   .sub-options div:nth-child(2) {
     width: 250px;
     height: auto;
-    padding-bottom: 17px;
+    padding-bottom: 22px;
   }
   .sub-options-link a {
     font-size: 14px;
@@ -906,6 +906,10 @@ button{
       }
       .sub-options h4 {
         width: 250px;
+        margin-bottom: 10px;
+      }
+      .sub-options h1{
+        margin-bottom: 0;
       }
 }
 
@@ -986,6 +990,7 @@ button{
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.01px;
+  width: 360px;
 }
 .section3p2-text-contents p {
   font-size: 16px;
@@ -1010,6 +1015,16 @@ button{
   letter-spacing: -0.01px;
   border-radius: 9999px;
 }
+
+@media screen and (max-width: 1200px){
+  .section3-content{
+    margin-right: 20px;
+  }
+  .section3p2-content{
+    margin-left: 20px;
+  }
+}
+
 @media screen and (max-width:1024px){
   .section3-text-contents {
     margin-left: 25px;
@@ -1024,7 +1039,6 @@ button{
     width:524px;
     height: 500px;
     object-fit: cover;
-     margin-left: 20px;
   }
   .section3-text-contents {
     margin-right: 53px
@@ -1046,7 +1060,6 @@ button{
     width: 293px;
     height: 500px;
     object-fit: cover;
-    margin-right: 20px;
   }
   .section3-text-contents {
     width: 323px;
@@ -1061,7 +1074,6 @@ button{
     width: 303px;
     height: 500px;
     object-fit: cover;
-    margin-left: 20px;
   }
   .section3p2-text-contents {
     padding-left: 0;
@@ -1325,6 +1337,12 @@ button{
   border-radius: 9999px;
 }
 
+@media screen and (max-width: 1200px){
+  .section5-content{
+    margin-right: 20px;
+  }
+}
+
 @media screen and (max-width:1024px){
   .section5-text-contents {
     margin-left: 25px;
@@ -1334,8 +1352,10 @@ button{
     width:546px;
     height: 500px;
     object-fit: cover;
-    margin-right: 20px;
   }
+  /* .section5-content{
+    margin-right: 20px;
+  } */
 }
 
 
@@ -1495,6 +1515,7 @@ button{
   width: 100%;
   text-align: center;
 }
+
 
 @media screen and (max-width:1024px){
   .grid-sections {
@@ -1750,6 +1771,12 @@ button{
   border-radius: 9999px;
 }
 
+@media screen and (max-width: 1200px){
+  .section7-content{
+    margin-right: 20px;
+  }
+}
+
 
 @media screen and (max-width:1024px){
   .section7-text-contents {
@@ -1761,6 +1788,9 @@ button{
     height: 500px;
     object-fit: cover;
   }
+  /* .section7-content{
+    margin-right: 20px;
+  } */
 }
 
 @media screen and (max-width: 768px) {
@@ -1880,6 +1910,11 @@ button{
   letter-spacing: -0.01px;
   border-radius: 9999px;
 }
+@media screen and (max-width: 1200px){
+  .section8-content{
+    margin-left: 20px;
+  }
+}
 
 @media screen and (max-width:1024px){
   .section-text-contents {
@@ -1890,7 +1925,6 @@ button{
     width:524px;
     height: 500px;
     object-fit: cover;
-    margin-left: 25px;
   }
   .section8{
     padding-bottom: 0;
@@ -1903,10 +1937,6 @@ button{
     width: 307px;
     height: 500px;
     object-fit: cover;
-    margin-left: 0;
-  }
-  .section8-image {
-    margin-left: 20px;
   }
   .section8-text-contents {
     width: 360px;
@@ -2543,5 +2573,6 @@ button{
     justify-content: center;
   }
 }
+
 
 
