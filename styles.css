@@ -1083,9 +1083,8 @@ button{
   }
 }
 
+@media screen and (max-width: 750px){
 
-
-@media screen and (max-width: 500px) {
   .section3-content {
     flex-direction: column-reverse;
     width: 93%;
@@ -1114,6 +1113,7 @@ button{
   .section3-text-contents p {
     font-size: 14px;
     margin-top: 10px;
+    width: auto;
   }
   .section3-text-contents button {
     font-size: 14px;
@@ -1148,6 +1148,7 @@ button{
   .section3p2-text-contents p {
     font-size: 14px;
     margin-top: 10px;
+    width: auto;
 
   }
   .section3p2 {
@@ -1160,7 +1161,31 @@ button{
     width: 130px;
     margin-top: 20px;
   }
-    
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .section3-text-contents h1{
+    line-height: 28px;
+    width: 347px;
+  }
+    .section3-text-contents p{
+      width: 385px;
+    }
+    .section3p2-text-contents p{
+      width: 380px;
+    }
+}
+
+@media screen and (max-width: 400px){
+  
+  .section3-text-contents p{
+    width:335px ;
+  }
+  .section3p2-text-contents p{
+    width: 341px;
+  }
 }
 
 /*section 4 css*/
@@ -1370,7 +1395,8 @@ button{
   }
 }
 
-@media (max-width: 500px) {
+
+@media screen and (max-width:750px){
   .section5-content {
     flex-direction: column-reverse;
     width: 93%;
@@ -1388,6 +1414,7 @@ button{
   }
   .section5-text-contents h1 {
     font-size: 24px;
+    width: auto;
   }
   .section5-text-contents p {
     font-size: 14px;
@@ -1407,6 +1434,20 @@ button{
     line-height: 28px;
     margin-top: 10px;
 }
+}
+
+@media (max-width: 500px) {
+  
+}
+
+
+@media screen and (max-width: 400px) {
+  .section5-text-contents h1{
+    width: 294px;
+  }
+  .section5-text-contents p{
+    width: 335px;
+  }
 }
 /*section 6 css*/
 .section6 {
@@ -2575,6 +2616,4 @@ button{
     justify-content: center;
   }
 }
-
-
 
