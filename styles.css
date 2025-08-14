@@ -1429,6 +1429,7 @@ button{
   }
   .section5 {
     margin-top: 20px;
+    padding-bottom: 50px;
   }
   .section5-text-contents h1 {
     line-height: 28px;
@@ -1845,7 +1846,7 @@ button{
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width:750px){
   .section7-main-heading {
     margin-bottom: 25px;
   }
@@ -1860,8 +1861,9 @@ button{
     width: 93%;
     margin: 0 auto;
   }
-  .section-text-contents {
+  .section7-text-contents {
     width: 100%;
+    margin-right: 0;
   }
   .section7-content img {
     height: 180px;
@@ -1872,6 +1874,8 @@ button{
     font-size: 24px;
     height: auto;
     margin-top: 20px;
+    line-height: 28px;
+  
   }
   .section7-text-contents p {
     font-size: 14px;
@@ -1885,6 +1889,17 @@ button{
   }
   .section7-text-contents{
     padding-left: 0;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section7-text-contents h1{
+    width: 300px;
+    
+  }
+  .section7-text-contents {
+    width: 385px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -1951,11 +1966,12 @@ button{
 @media screen and (max-width: 1200px){
   .section8-content{
     margin:0 20px;
+    padding: 80px 0 5px 0;
   }
 }
 
 @media screen and (max-width:1024px){
-  .section-text-contents {
+  .section8-text-contents {
     margin-left: 44px;
     margin-right: 50px;
   }
@@ -1985,8 +2001,8 @@ button{
   
 }
 
-@media screen and (max-width: 500px) {
-  .section8-content {
+@media screen and (max-width:750px){
+    .section8-content {
     flex-direction: column;
     padding: 320px 0 5px 0;
     width: 93%;
@@ -2023,6 +2039,18 @@ button{
   }
   .section8-image {
       margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section8-text-contents p {
+    width: 385px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .section8-text-contents p {
+    width: 335px;
   }
 }
 
@@ -2616,4 +2644,6 @@ button{
     justify-content: center;
   }
 }
+
+
 
