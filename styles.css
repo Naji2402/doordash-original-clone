@@ -1478,7 +1478,7 @@ button{
   justify-content: center;
 }
 .card-section-box {
-  width: 552px;
+  max-width: 552px;
 }
 .card-section-box:nth-child(1) button{
   width: 117px;
@@ -1500,7 +1500,7 @@ button{
 
 .card-section-box img {
   width: 100%;
-  height: 552px;
+  max-height: 552px;
   object-fit: cover;
 }
 .card-section-main-heading h1 {
@@ -1568,20 +1568,13 @@ button{
 @media screen and (max-width:1024px){
   .card-section-sections {
   max-width: 980px;
-  margin: 40px auto;
   gap: 40px;
   padding-left: 0;
 }
 .card-section-text-section{
   height: 234px;
 }
-
-.card-section-box{
-    width: 472px;
-    height: 746px;
-}
  .card-section-box img {
-    height: 472px;
     width: 100%;
 }
 .card-section{
