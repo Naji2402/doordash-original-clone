@@ -2413,6 +2413,8 @@ button{
 }
 
 /*sub-footer css*/
+
+
 .sub-footer {
   min-height: 90px;
   max-height: auto;
@@ -2522,7 +2524,6 @@ button{
 }
 
 
-
 @media screen and (max-width:768px){
 
   .sub-footer-first-section {
@@ -2591,7 +2592,7 @@ button{
     flex-wrap: wrap;
     justify-content: center;
   }
-}
+} 
 
 
 
