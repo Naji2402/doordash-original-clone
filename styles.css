@@ -2219,7 +2219,6 @@ button{
   letter-spacing: -0.01px;
   width: 100%;
   margin: 30px 0 5px 0;
-  padding: 0 20px;
 }
 .footer-sections h2 {
   color: white;
@@ -2247,7 +2246,6 @@ button{
 .footer-sections{
   display: flex;
   flex-direction: column;
-  padding: 0 20px;
   gap: 32px;
 }
 .first-footer-section {
@@ -2366,7 +2364,7 @@ button{
   background: #191919ff;
 }
 .sub-footer-main {
-  max-width: 1100px;
+  max-width: 1120px;
   margin: 0 auto;
   padding: 32px 0;
   display: flex;
@@ -2384,6 +2382,7 @@ button{
 }
 .sub-footer-first-section div:nth-child(1){
   margin-top: 10px;
+  margin-left: 0;
 }
 .sub-footer-first-section div:nth-child(6){
   margin-top: 7px;
@@ -2434,7 +2433,7 @@ button{
   align-items: center;
   flex-wrap: nowrap;
   gap: 10px;
-  padding-right: 20px;
+  
 }
 .sub-footer-third-section svg path {
   fill:  rgb(196, 196, 196);
