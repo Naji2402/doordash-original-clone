@@ -2360,60 +2360,48 @@ button{
 
 /*sub-footer css*/
 
-
 .sub-footer {
-  min-height: 90px;
-  max-height: auto;
+  min-height: 96px;
   width: 100%;
   background: #191919ff;
-  display: flex;
-  align-items: center;
 }
 .sub-footer-main {
-  width: 1120px;
+  max-width: 1100px;
   margin: 0 auto;
-  height: 100%;
+  padding: 32px 0;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .sub-footer-first-section {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.sub-footer a {
+.sub-footer-first-section div{
+  margin-left: 12px;
+}
+.sub-footer-first-section div:nth-child(1){
+  margin-top: 10px;
+}
+.sub-footer-first-section div:nth-child(6){
+  margin-top: 7px;
+}
+.sub-footer-first-section a {
   text-decoration: none;
   color: rgb(196, 196, 196);
   font-size: 12px;
+  font-family: TTNorms-medium;
 }
-.sub-footer p {
+.sub-footer-first-section p {
   color: rgb(196, 196, 196);
   font-size: 12px;
-}
-.sub-footer-first-section div:nth-child(1) {
-  display: flex;
-  justify-content: center;
-}
-.sub-footer-first-section div:nth-child(1) div:nth-child(1) {
-  margin-right: 15px;
-  padding-top: 4px;
-}
-.sub-footer-first-section div:nth-child(1) div:nth-child(2) {
-  margin-right: 15px;
-}
-.sub-footer-first-section div:nth-child(1) div:nth-child(3) {
-  margin-right: 15px;
-  margin-bottom: 5px;
-}
-.sub-footer-first-section div:nth-child(1) div:nth-child(4) {
-  margin-right: 15px;
-  margin-bottom: 5px;
-}
-.sub-footer-first-section div:nth-child(2) div:nth-child(1) {
-  margin-right: 15px;
-}
-.sub-footer-first-section div:nth-child(2) div:nth-child(2) {
-  margin-right: 100px;
+  font-family: TTNorms-medium;
 }
 .sub-footer-second-section {
+  display: flex;
+  flex-wrap: wrap;
   margin-right: 65px;
   color: black;
   position: relative;
@@ -2438,107 +2426,32 @@ button{
   top: 7px;
   font-size: 17px;
 }
-.fist-section-second-sub-footer{
-  display: flex;
-  align-items: center;
-}
-
 .sub-footer-third-section {
-  width: 96px;
+  width: 100%;
   display: flex;
   flex: 1;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
   gap: 10px;
+  padding-right: 20px;
 }
 .sub-footer-third-section svg path {
-  fill: rgb(196, 196, 196);
+  fill:  rgb(196, 196, 196);
 }
-.sub-footer a{
-  font-family: TTNorms-medium;
-}
-@media screen and (max-width:1024px){
-  .sub-footer-first-section div:nth-child(2) div:nth-child(2) {
-    margin-right: 17px;
-  }
-  .sub-footer-first-section div:nth-child(1) {
-    padding-left: 11px;
-}
-.sub-footer-second-section {
-  margin-right: 0;
-}
-}
-
-
-@media screen and (max-width:768px){
-
-  .sub-footer-first-section {
-    flex-direction: column;
-}
-.fist-section-second-sub-footer{
-    padding-left: 50px;
-}
-  .sub-footer-second-section {
-      margin-right: 4px;
-  }
-}
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px){
   .sub-footer-main {
-    width: 100vw;
     flex-direction: column-reverse;
-    align-items: center;
     justify-content: center;
   }
-
-  .sub-footer-third-section {
+  .sub-footer-second-section{
     margin-right: 0;
-    margin-bottom: 12px;
+    margin-top: 5px;
   }
-
-  .sub-footer-second-section {
-    margin-right: 0;
-    margin-bottom: 12px;
+  .sub-footer-third-section{
+    padding-right: 0;
   }
-
   .sub-footer-first-section {
-    margin-right: 0;
-    margin-top: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  .sub-footer-first-section div:nth-child(2) {
-    text-align: center;
-    margin: 0;
-    gap: 10px;
-  }
-  .fist-section-second-sub-footer {
-    padding-left: 36px;
-    padding-bottom: 30px;
-  }
-  .sub-footer-first-section div:nth-child(2) div:nth-child(1) {
-    margin-right: 0;
-  }
-  .sub-footer-first-section div:nth-child(2) div:nth-child(2) {
-    margin-right: 0;
-    margin-top: 0;
-  }
-  .sub-footer-first-section div:nth-child(6),
-  .sub-footer-first-section div:nth-child(5),
-  .sub-footer-first-section div:nth-child(4),
-  .sub-footer-first-section div:nth-child(3),
-  .sub-footer-first-section div:nth-child(2),
-  .sub-footer-first-section div:nth-child(1) {
-    margin-right: 0;
+    margin-top: 10px;
   }
 }
-
-@media screen and (max-width:400px) {
-  .fist-section-second-sub-footer{
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-} 
-
-
-
