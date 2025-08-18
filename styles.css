@@ -133,7 +133,7 @@ button{
 }
 
 /*section 1 css*/
-.section1 {
+.homepage-section{
   background: url(images/hero_desktop.webp);
   background-position: center center;
   background-size: cover;
@@ -162,7 +162,7 @@ button{
   margin-left: 5px;
   margin-top: 11px;
 }
-.section1-content {
+.homepage-content {
   margin-top: 69px;
   width: 100%;
   display: flex;
@@ -170,7 +170,7 @@ button{
   flex-direction: column;
   align-items: center;
 }
-.section1-content h1 {
+.homepage-content h1 {
   color: white;
   font-weight: 900;
   max-width: 781px;
@@ -231,7 +231,7 @@ button{
   height: 32px;
   background-color: white;
 }
-.section1-content p {
+.homepage-content p {
   background-color: white;
   width: 203px;
   text-align: center;
@@ -392,7 +392,7 @@ button{
 
 /*tablet view*/
 @media screen and (max-width: 768px) {
-  .section1-content h1 {
+  .homepage-content h1 {
     font-size: 22px;
     max-width: 350px;
     height: 56px;
@@ -421,7 +421,7 @@ button{
     gap: 11px;
     padding-bottom: 5px;
   }
-  .section1-content {
+  .homepage-content {
     margin-top: 74px;
   }
   .address-input{
@@ -437,8 +437,9 @@ button{
 }
 
 @media screen and (max-width: 500px) {
-  .section1 {
+  .homepage-section {
     background-position: 53% 50%;
+    height: 647px;
 }
   .doordash-logo-hidden {
     display: flex;
@@ -446,19 +447,16 @@ button{
   .middle-header-section {
     display: none;
   }
-  .section1 {
-    height: 647px;
-  }
   .header {
     max-width: 765px;
     height: 95px;
     background-color: white;
     position: absolute;
   }
-  .section1-content {
+  .homepage-content {
     margin-top: 96px;
   }
-  .section1-content h1 {
+  .homepage-content h1 {
     color: white;
     font-size: 32px;
     font-weight: 900;
@@ -583,7 +581,7 @@ button{
     .signin-btn {
       margin-left: 36px;
     }
-    .section1-content h1 {
+    .homepage-content h1 {
       margin-left: 0;
       line-height: 28px;
       margin-top: 15px;
@@ -705,7 +703,7 @@ button{
 
 /*section2 css*/
 
-.section2 {
+.services {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -774,7 +772,7 @@ button{
     max-height: none;
     margin: 38px auto 80px auto;
   }
-  .section2 {
+  .services {
     width: 100%;
     margin: 0 auto;
     height: auto;
@@ -873,7 +871,7 @@ button{
     max-width: none;
     max-height: none;
   }
-  .section2 {
+  .services {
     width: 100%;
     margin: 0 auto;
     height: auto;
@@ -918,12 +916,12 @@ button{
 
 /*section three css*/
 
-.section3-content {
+.restaurants-content {
   display: flex;
   max-width: 1160px;
   margin: 0 auto;
 }
-.section3-text-contents {
+.restaurants-text-contents {
   display: flex;
   align-items: start;
   justify-content: center;
@@ -931,7 +929,7 @@ button{
   width: 400px;
   margin-right: 62px;
 }
-.section3-text-contents h1 {
+.restaurants-text-contents h1 {
   font-family: TTNorms-medium;
   font-size: 40px;
   line-height: 40px;
@@ -939,23 +937,23 @@ button{
   letter-spacing: 1px;
   margin-top: 27px;
 }
-.section3-text-contents h4 {
+.restaurants-text-contents h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 20px;
   letter-spacing: -0.01px;
 }
-.section3-text-contents p {
+.restaurants-text-contents p {
   font-size: 16px;
   margin-top: 10px;
   letter-spacing: -0.01px;
   font-weight: 500;
   line-height: 22px;
 }
-.section3-content img {
+.restaurants-content img {
   width: 695px;
 }
-.section3-text-contents button {
+.restaurants-text-contents button {
   height: 40px;
   width: 146px;
   border: none;
@@ -970,17 +968,17 @@ button{
 }
 
 /*section 3 part 2*/
-.section3p2 {
+.dashpass {
   background-color: #fef1ee;
   margin-top: -50px;
 }
-.section3p2-content {
+.dashpass-content {
   display: flex;
   max-width: 1160px;
   margin: 35px auto;
   padding: 50px 0 5px 0;
 }
-.section3p2-text-contents {
+.dashpass-text-contents {
   display: flex;
   align-items: start;
   justify-content: center;
@@ -989,23 +987,23 @@ button{
   margin-left: 50px;
 }
 
-.section3p2-text-contents h1 {
+.dashpass-text-contents h1 {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.01px;
   width: 360px;
 }
-.section3p2-text-contents p {
+.dashpass-text-contents p {
   font-size: 16px;
   margin-top: 20px;
   letter-spacing: -0.01px;
   font-weight: 500;
   line-height: 22px;
 }
-.section3p2-content img {
+.dashpass-content img {
   width: 724px;
 }
-.section3p2-text-contents button {
+.dashpass-text-contents button {
   height: 40px;
   width: 146px;
   border: none;
@@ -1020,102 +1018,102 @@ button{
 }
 
 @media screen and (max-width: 1200px){
-  .section3-content{
+  .restaurants-content{
     margin:0 20px;
   }
-  .section3p2-content{
+  .dashpass-content{
     margin: 20px 20px;
   }
 }
 
 @media screen and (max-width:1024px){
-  .section3-content img {
+  .restaurants-content img {
     width:524px;
     height: 500px;
     object-fit: cover;
   }
 
-  .section3p2-content img {
+  .dashpass-content img {
     width:524px;
     height: 500px;
     object-fit: cover;
   }
-  .section3-text-contents {
+  .restaurants-text-contents {
     margin-right: 53px
   }
-  .section3p2-text-contents h1{
+  .dashpass-text-contents h1{
     width: 360px;
   }
-  .section3p2-text-contents{
+  .dashpass-text-contents{
     margin-left: 60px;
   }
-  .section3p2-text-contents button{
+  .dashpass-text-contents button{
     margin-top: 30px;
   }
 }
 
 
 @media screen and (max-width: 768px) {
-  .section3-content img {
+  .restaurants-content img {
     width: 293px;
     height: 500px;
     object-fit: cover;
   }
-  .section3-text-contents {
+  .restaurants-text-contents {
     width: 323px;
     margin-right: 112px;
     margin-bottom: 20px;
   }
-  .section3-text-contents p {
+  .restaurants-text-contents p {
     width: 323px;
   }
-  .section3p2-content img {
+  .dashpass-content img {
     width: 303px;
     height: 500px;
     object-fit: cover;
   }
-  .section3p2-text-contents {
+  .dashpass-text-contents {
     padding-left: 0;
     width: 323px;
   }
-  .section3p2-text-contents p {
+  .dashpass-text-contents p {
     width: 323px;
   }
 }
 
 @media screen and (max-width: 750px){
 
-  .section3-content {
+  .restaurants-content {
     flex-direction: column-reverse;
     width: 93%;
     margin: 0 auto;
   }
-  .section3-text-contents {
+  .restaurants-text-contents {
     width: 100%;
     padding-left: 0;
     margin-left: 0;
   }
-  .section3-content img {
+  .restaurants-content img {
     height: 180px;
     width: 100%;
     object-fit: cover;
     
   }
-  .section3-text-contents h1 {
+  .restaurants-text-contents h1 {
     font-size: 24px;
     margin-top: 20px;
   }
-  .section3-text-contents h4 {
+  .restaurants-text-contents h4 {
     font-size: 18px;
     font-weight: 700;
     margin-top: 10px;
   }
-  .section3-text-contents p {
+  .restaurants-text-contents p {
     font-size: 14px;
     margin-top: 10px;
     width: auto;
   }
-  .section3-text-contents button {
+  .restaurants-text-contents button {
     font-size: 14px;
     height: 32px;
     width: 130px;
@@ -1124,38 +1122,38 @@ button{
     font-family: TTNorms-medium;
   }
 
-  .section3p2-content {
+  .dashpass-content {
     flex-direction: column;
     padding: 320px 0 5px 0;
     width: 93%;
     margin: 0 auto;
   }
-  .section3p2-text-contents {
+  .dashpass-text-contents {
     width: 100%;
     margin-left: 0;
     padding-left: 0;
   }
-  .section3p2-content img {
+  .dashpass-content img {
     height: 180px;
     width: 100%;
     object-fit: cover;
     margin-left: 0;
   }
-  .section3p2-text-contents h1 {
+  .dashpass-text-contents h1 {
     font-size: 24px;
     margin-top: 20px;
   }
-  .section3p2-text-contents p {
+  .dashpass-text-contents p {
     font-size: 14px;
     margin-top: 10px;
     width: auto;
 
   }
-  .section3p2 {
+  .dashpass {
     margin-top: -290px;
     padding-bottom: 20px;
   }
-  .section3p2-text-contents button {
+  .dashpass-text-contents button {
     font-size: 14px;
     height: 32px;
     width: 130px;
@@ -1166,31 +1164,31 @@ button{
 
 
 @media screen and (max-width: 500px) {
-  .section3-text-contents h1{
+  .restaurants-text-contents h1{
     line-height: 28px;
     width: 347px;
   }
-    .section3-text-contents p{
+    .restaurants-text-contents p{
       width: 385px;
     }
-    .section3p2-text-contents p{
+    .dashpass-text-contents p{
       width: 380px;
     }
 }
 
 @media screen and (max-width: 400px){
   
-  .section3-text-contents p{
+  .restaurants-text-contents p{
     width:335px ;
   }
-  .section3p2-text-contents p{
+  .dashpass-text-contents p{
     width: 341px;
   }
 }
 
 /*section 4 css*/
 
-.section4 {
+.groceries {
   height: 600px;
   width: 100%;
   background: url(images/grocery_desktop.avif);
@@ -1200,7 +1198,7 @@ button{
   margin-top: -10px;
   margin-bottom: 60px;
 }
-.section4-blur {
+.groceries-blur {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.497);
@@ -1209,7 +1207,7 @@ button{
   align-items: center;
   flex-direction: column;
 }
-.section4-blur h2 {
+.groceries-blur h2 {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: 1px;
@@ -1220,7 +1218,7 @@ button{
   font-family: TTNorms-medium;
   overflow-y: hidden;
 }
-.section4-blur h4 {
+.groceries-blur h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 20px;
@@ -1230,7 +1228,7 @@ button{
   text-align: center;
   font-family: TTNorms-medium;
 }
-.section4-blur p {
+.groceries-blur p {
   font-size: 16px;
   margin-top: 10px;
   letter-spacing: -0.01px;
@@ -1242,7 +1240,7 @@ button{
   text-align: center;
   font-family: TTNorms-medium;
 }
-.section4-blur button {
+.groceries-blur button {
   height: 40px;
   width: 146px;
   border: none;
@@ -1258,12 +1256,12 @@ button{
 }
 
 @media screen and (max-width: 500px) {
-  .section4 {
+  .groceries {
     height: 350px;
     width: 100%;
     margin-top: 30px;
   }
-  .section4-blur h2 {
+  .groceries-blur h2 {
     font-size: 24px;
     height: 56px;
     line-height: 28px;
@@ -1271,56 +1269,56 @@ button{
     font-family: TTNorms-medium;
 
   }
-  .section4-blur h4 {
+  .groceries-blur h4 {
     font-size: 18px;
     margin-top: 10px;
     font-family: TTNorms-medium;
   }
-  .section4-blur p {
+  .groceries-blur p {
     font-size: 14px;
     margin-top: 10px;
   }
-  .section4-blur button {
+  .groceries-blur button {
     height: 32px;
     width: 123px;
     font-size: 14px;
   }
-  .section4 {
+  .groceries {
     margin-bottom: 0;
     margin-top: 0;
   }
-  .section4-blur{
+  .groceries-blur{
     padding-top: 23px;
   }
-  .section4-blur p {
+  .groceries-blur p {
     width: 400px;
     
   }
   
 }
 @media screen and (max-width: 400px) {
-  .section4-blur h2 {
+  .groceries-blur h2 {
     width: 337px;
   }
-  .section4-blur h4 {
+  .groceries-blur h4 {
     width: 344px;
   }
-  .section4-blur p {
+  .groceries-blur p {
     width: 375px;
     text-align: center;
   }
 }
 
 /*section 5 css*/
-.section5 {
+.shop {
   margin-bottom: 50px;
 }
-.section5-content {
+.shop-content {
   display: flex;
   max-width: 1160px;
   margin: 0 auto;
 }
-.section5-text-contents {
+.shop-text-contents {
   display: flex;
   align-items: start;
   justify-content: center;
@@ -1328,14 +1326,14 @@ button{
   width: 400px;
   margin-right: 60px;
 }
-.section5-text-contents h1 {
+.shop-text-contents h1 {
   font-size: 40px;
   line-height: 43px;
   letter-spacing: -0.01px;
   width: 350px;
   font-family: TTNorms-medium;
 }
-.section5-text-contents p {
+.shop-text-contents p {
   font-size: 16px;
   margin-top: 20px;
   letter-spacing: -0.01px;
@@ -1343,10 +1341,10 @@ button{
   font-family: TTNorms-medium;
   line-height: 22px;
 }
-.section5-content img {
+.shop-content img {
   width: 695px;
 }
-.section5-text-contents button {
+.shop-text-contents button {
   height: 40px;
   width: 100px;
   border: none;
@@ -1362,16 +1360,16 @@ button{
 }
 
 @media screen and (max-width: 1200px){
-  .section5-content{
+  .shop-content{
     margin:0 20px;
   }
 }
 
 @media screen and (max-width:1024px){
-  .section5-text-contents {
+  .shop-text-contents {
     margin-right: 30px;
   }
-  .section5-content img {
+  .shop-content img {
     width:546px;
     height: 500px;
     object-fit: cover;
@@ -1380,85 +1378,78 @@ button{
 
 
 @media screen and (max-width: 768px) {
-  .section5-content img {
+  .shop-content img {
     width: 345px;
     height: 500px;
     object-fit: cover;
   
   }
-  .section5-text-contents {
+  .shop-text-contents {
     width: 323px;
     margin-right: 60px;
   }
-  .section5-text-contents p {
+  .shop-text-contents p {
     width: 323px;
   }
 }
 
 
 @media screen and (max-width:750px){
-  .section5-content {
+  .shop-content {
     flex-direction: column-reverse;
     width: 93%;
     margin: 0 auto;
   }
-  .section5-text-contents {
+  .shop-text-contents {
     width: 100%;
     padding-left: 0;
     margin-left: 0;
   }
-  .section5-content img {
+  .shop-content img {
     height: 180px;
     width: 100%;
     object-fit: cover;
   }
-  .section5-text-contents h1 {
+  .shop-text-contents h1 {
     font-size: 24px;
     width: auto;
+    line-height: 28px;
+    margin-top: 10px;
   }
-  .section5-text-contents p {
+  .shop-text-contents p {
     font-size: 14px;
     margin-top: 10px;
     width: 375px;
   }
-  .section5-text-contents button {
+  .shop-text-contents button {
     font-size: 14px;
     height: 32px;
     width: 90px;
     margin-top: 20px;
   }
-  .section5 {
+  .shop {
     margin-top: 20px;
     padding-bottom: 50px;
   }
-  .section5-text-contents h1 {
-    line-height: 28px;
-    margin-top: 10px;
-}
-}
-
-@media (max-width: 500px) {
   
 }
-
-
 @media screen and (max-width: 400px) {
-  .section5-text-contents h1{
+  .shop-text-contents h1{
     width: 294px;
   }
-  .section5-text-contents p{
+  .shop-text-contents p{
     width: 335px;
   }
 }
 /*section 6 css*/
-.section6 {
+.card-section {
   background-color: #fef1ee;
   width: 100%;
   padding: 80px 0 20px 0;
   margin-top: -80px;
   margin-bottom: 60px;
 }
-.section6-sections {
+.card-section-sections {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1184px;
@@ -1468,38 +1459,38 @@ button{
   row-gap: 40px;
   padding-left: 20px;
 }
-.section6-main-heading {
+.card-section-main-heading {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.section6-box {
+.card-section-box {
   width: 552px;
 }
-.section6-box:nth-child(1) button{
+.card-section-box:nth-child(1) button{
   width: 117px;
   padding-bottom: 2px;
 }
-.section6-box:nth-child(2) button{
+.card-section-box:nth-child(2) button{
   width: 124px;
   padding-bottom: 1px;
 }
-.section6-box:nth-child(2) h1{
+.card-section-box:nth-child(2) h1{
   height: 45px;
 }
-.section6-box:nth-child(3) button{
+.card-section-box:nth-child(3) button{
   width: 123px;
 } 
-.section6-box:nth-child(4) button{
+.card-section-box:nth-child(4) button{
   width: 149px;
 }
 
-.section6-box img {
+.card-section-box img {
   width: 100%;
   height: 552px;
   object-fit: cover;
 }
-.section6-main-heading h1 {
+.card-section-main-heading h1 {
   font-size: 32px;
   width: 500px;
   height: 80px;
@@ -1509,7 +1500,7 @@ button{
   text-align: center;
   font-family: TTNorms-medium;
 }
-.section6-sections h1 {
+.card-section-sections h1 {
   font-size: 40px;
   text-align: center;
   line-height: 40px;
@@ -1519,7 +1510,7 @@ button{
   letter-spacing: 0.03px;
   margin-top: 20px;
 }
-.section6-sections p {
+.card-section-sections p {
   font-size: 16px;
   text-align: center;
   color: #191919;
@@ -1529,7 +1520,7 @@ button{
   font-family: TTNorms-medium;
 }
 
-.section6-sections button {
+.card-section-sections button {
   height: 40px;
   width: 146px;
   border: none;
@@ -1542,19 +1533,19 @@ button{
   letter-spacing: -0.01px;
   border-radius: 9999px;
 }
-.section6-text-section {
+.card-section-text-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.section6-box:nth-child(3) .section6-text-section p{
+.card-section-box:nth-child(3) .card-section-text-section p{
   width: 100%;
   text-align: center;
 }
 
 @media screen and (max-width: 1200px){
-  .section6-sections{
+  .card-section-sections{
     margin: 40px 20px;
     padding-left: 0;
   }
@@ -1562,83 +1553,83 @@ button{
 
 
 @media screen and (max-width:1024px){
-  .section6-sections {
+  .card-section-sections {
   max-width: 980px;
   margin: 40px auto;
   gap: 40px;
   padding-left: 0;
 }
-.section6-text-section{
+.card-section-text-section{
   height: 234px;
 }
 
-.section6-box{
+.card-section-box{
     width: 472px;
     height: 746px;
 }
- .section6-box img {
+ .card-section-box img {
     height: 472px;
     width: 100%;
 }
-.section6{
+.card-section{
   padding: 80px 0 0 0;
   
 }
-.section6-box:nth-child(3) .section6-text-section button{
+.card-section-box:nth-child(3) .card-section-text-section button{
   margin-top: 25px;
 }
-.section6-box:nth-child(3) .section6-text-section p{
+.card-section-box:nth-child(3) .card-section-text-section p{
   margin-top: 18px;
 }
-.section6-box:nth-child(2) .section6-text-section{
+.card-section-box:nth-child(2) .card-section-text-section{
   height: 230px;
 }
-.section6-box:nth-child(2) .section6-text-section h1{
+.card-section-box:nth-child(2) .card-section-text-section h1{
   width: 424px;
   height: 80px;
 }
-.section6-box:nth-child(2) .section6-text-section p{
+.card-section-box:nth-child(2) .card-section-text-section p{
   width: 422px;
 }
 }
 
 
 @media screen and (max-width:768px){
-  .section6-box {
+  .card-section-box {
     width: 344px;
     height: 658px;
   }
-  .section6-box div:nth-child(1) {
+  .card-section-box div:nth-child(1) {
     height: 344px;
   }
-  .section6-box img {
+  .card-section-box img {
     object-fit: cover;
     height: 100%
 }
-.section6-text-section{
+.card-section-text-section{
   height: 274px;
 }
-.section-box:nth-child(3) .section6-text-section {
+.card-section-box:nth-child(3) .card-section-text-section {
   height: 296px;
 }
-.section6-box:nth-child(1) h1{
+.card-section-box:nth-child(1) h1{
   width: 309px;
 }
-.section6-sections{
+.card-section-sections{
   gap: 25px;
   padding-left: 20px;
   margin-bottom: 0;
 }
-.section6-sections{
+.card-section-sections{
   row-gap: 0;
 }
-.section6-box:nth-child(3) .section6-text-section {
+.card-section-box:nth-child(3) .card-section-text-section {
         height: 293px;
 }
 }
 
 @media screen and (max-width: 750px) {
-  .section6-sections {
+  .card-section-sections {
     display: flex;
     flex-direction: row;
     overflow-x: auto;
@@ -1646,11 +1637,11 @@ button{
     padding-left: 0;
     gap: 10px;
   }
-  .section6 {
+  .card-section {
     padding: 40px 0 20px 0;
     margin-top: -30px;
   }
-  .section6-sections .section6-box {
+  .card-section-sections .card-section-box {
     max-width: 635px;
     width: 100%;
     margin-right: 10px;
@@ -1658,80 +1649,80 @@ button{
     height: 362px;
     flex: 0 0 auto;
   }
-  .section6-sections .section6-box:nth-child(1) {
+  .card-section-sections .card-section-box:nth-child(1) {
     margin-left: 40px
   }
-  .section6-sections .section6-box:nth-last-child(1) {
+  .card-section-sections .card-section-box:nth-last-child(1) {
     margin-right: 40px;
   }
-  .section6-box div:nth-child(1){
+  .card-section-box div:nth-child(1){
     height: 180px;
   }
-  .section6-box img {
+  .card-section-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .section6-sections h1 {
+  .card-section-sections h1 {
     font-size: 24px;
     line-height: 28px;
     width: 100%;
     margin-top: 20px;
   }
-  .section6-box:nth-child(1) h1{
+  .card-section-box:nth-child(1) h1{
   width: 100%;
 }
-  .section6-sections p {
+  .card-section-sections p {
     font-size: 14px;
     width: 100%;
     margin-top: 10px;
   }
-  .section6-box .text-section3 p:nth-last-child(1){
+  .card-section-box .text-section3 p:nth-last-child(1){
     font-size: 12px;
   }
-  .section6-sections button {
+  .card-section-sections button {
     height: 32px;
     width: 120px;
     font-size: 14px;
     margin-top: 20px;
   }
-  .section6-main-heading {
+  .card-section-main-heading {
     width: 100%;
   }
-  .section6-main-heading h1 {
+  .card-section-main-heading h1 {
     font-size: 24px;
     line-height: 28px;
     width: 300px;
   }
-  .section6-sections {
+  .card-section-sections {
      margin-top: 20px;
     }
-    .section6-text-section{
+    .card-section-text-section{
       height: 130px;
     }
-    .section6-box:nth-child(3) .section6-text-section {
+    .card-section-box:nth-child(3) .card-section-text-section {
       height: 190px;
 }   
-     .section6-box:nth-child(3) .section6-text-section button{
+     .card-section-box:nth-child(3) .card-section-text-section button{
       margin-top: 20px;
 }
- .section6-box:nth-child(3) .section6-text-section h1{
+ .card-section-box:nth-child(3) .card-section-text-section h1{
       margin-top: 20px;
 }
- .section6-box:nth-child(3) .section6-text-section p{
+ .card-section-box:nth-child(3) .card-section-text-section p{
       margin-top: 10px;
 }
- .section6-box:nth-child(4) .section6-text-section {
+ .card-section-box:nth-child(4) .card-section-text-section {
       height: 150px;
 }   
-.section6-box:nth-child(2) .section6-text-section h1{
+.card-section-box:nth-child(2) .card-section-text-section h1{
   height: 28px;
 }
-.section6-box:nth-child(2) .section6-text-section {
+.card-section-box:nth-child(2) .card-section-text-section {
   width: 100%;
   height: 150px;
 }
-.section6-box:nth-child(2) .section6-text-section p{
+.card-section-box:nth-child(2) .card-section-text-section p{
   width: 100%;
   height: 40px;
 }
@@ -1740,52 +1731,52 @@ button{
 }
 
 @media screen and (max-width: 500px) {
-  .section6-text-section{
+  .card-section-text-section{
       height: 178px;
     }
 
-  .section6-box:nth-child(1) h1{
+  .card-section-box:nth-child(1) h1{
     width: 365px;
 }
-.section6-sections .section6-box:nth-child(3){
+.card-section-sections .card-section-box:nth-child(3){
   height: 382px;
 }
 }
 
 @media screen and (max-width: 426px){
-  .section6-sections .section6-box{
+  .card-section-sections .card-section-box{
     width: 343px;
   }
-  .section6-box:nth-child(4) .section6-text-section {
+  .card-section-box:nth-child(4) .card-section-text-section {
       height: 161px;
 }  
 }
 
 
-@media screen and (max-width: 400px) {
-  .grid-box img {
+/* @media screen and (max-width: 400px) {
+  .card-section-box img {
     width: 296px;
   }
-  .grid-sections .grid-box {
+  .card-section-sections .card-section-box {
     width: 297px;
   }
-  .grid-sections h1 {
+  .card-section-sections h1 {
     width: 267px;
   }
-  .grid-sections p {
+  .card-section-sections p {
     width: 297px;
   }
-}
+} */
 
 /*section 7 css*/
-.section7-main-heading {
+.dasher-main-heading {
   width: 100%;
   height: 80px;
   margin-bottom: 60px;
   display: flex;
   justify-content: center;
 }
-.section7-main-heading h1 {
+.dasher-main-heading h1 {
   font-size: 32px;
   font-weight: 700;
   line-height: 40px;
@@ -1795,18 +1786,18 @@ button{
   width: 500px;
   height: 100%;
 }
-.section7-text-contents h4 {
+.dasher-text-contents h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 20px;
   letter-spacing: -0.01px;
 }
-.section7-content {
+.dasher-content {
   display: flex;
   max-width: 1160px;
   margin: 0 auto;
 }
-.section7-text-contents {
+.dasher-text-contents {
   display: flex;
   align-items: start;
   justify-content: center;
@@ -1814,7 +1805,7 @@ button{
   width: 400px;
   margin-right: 60px;
 }
-.section7-text-contents h1 {
+.dasher-text-contents h1 {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.01px;
@@ -1822,17 +1813,17 @@ button{
   width: 350px;
   height: 84px;
 }
-.section7-text-contents p {
+.dasher-text-contents p {
   font-size: 16px;
   margin-top: 20px;
   letter-spacing: -0.01px;
   font-weight: 500;
   line-height: 22px;
 }
-.section7-content img {
+.dasher-content img {
   width: 695px;
 }
-.section7-text-contents button {
+.dasher-text-contents button {
   height: 40px;
   width: 146px;
   border: none;
@@ -1847,17 +1838,17 @@ button{
 }
 
 @media screen and (max-width: 1200px){
-  .section7-content{
+  .dasher-content{
     margin:0 20px;
   }
 }
 
 
 @media screen and (max-width:1024px){
-  .section7-text-contents {
+  .dasher-text-contents {
     margin-right: 50px;
   }
-  .section7-content img {
+  .dasher-content img {
     width:524px;
     height: 500px;
     object-fit: cover;
@@ -1865,12 +1856,12 @@ button{
 }
 
 @media screen and (max-width: 768px) {
-  .section7-content img {
+  .dasher-content img {
     width: 285px;
     height: 500px;
     object-fit: cover;
   }
-  .section7-text-contents {
+  .dasher-text-contents {
     width: 382px;
     margin-right: 80px;
     margin-left: 0;
@@ -1878,82 +1869,82 @@ button{
 }
 
 @media screen and (max-width:750px){
-  .section7-main-heading {
+  .dasher-main-heading {
     margin-bottom: 25px;
   }
-  .section7-main-heading h1 {
+  .dasher-main-heading h1 {
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
     width: 300px;
   }
-  .section7-content {
+  .dasher-content {
     flex-direction: column-reverse;
     width: 93%;
     margin: 0 auto;
   }
-  .section7-text-contents {
+  .dasher-text-contents {
     width: 100%;
     margin-right: 0;
   }
-  .section7-content img {
+  .dasher-content img {
     height: 180px;
     width: 100%;
     object-fit: cover;
   }
-  .section7-text-contents h1 {
+  .dasher-text-contents h1 {
     font-size: 24px;
     height: auto;
     margin-top: 20px;
     line-height: 28px;
   
   }
-  .section7-text-contents p {
+  .dasher-text-contents p {
     font-size: 14px;
     margin-top: 10px;
   }
-  .section7-text-contents button {
+  .dasher-text-contents button {
     font-size: 14px;
     height: 32px;
     width: 130px;
     margin-top: 20px;
   }
-  .section7-text-contents{
+  .dasher-text-contents{
     padding-left: 0;
     width: auto;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .section7-text-contents h1{
+  .dasher-text-contents h1{
     width: 300px;
     
   }
-  .section7-text-contents {
+  .dasher-text-contents {
     width: 385px;
   }
 }
 @media screen and (max-width: 400px) {
-  .section7-text-contents p {
+  .dasher-text-contents p {
     width: 335px;
   }
 }
 
 /*section 8 csss*/
 
-.section8 {
+.partner {
   background-color: #fef1ee;
   margin-top: -50px;
   margin-bottom: 40px;
   padding-bottom: 15px;
 }
-.section8-content {
+.partner-content {
   display: flex;
   max-width: 1160px;
   margin: 35px auto;
   padding: 50px 0 5px 0;
 }
-.section8-text-contents {
+.partner-text-contents {
   display: flex;
   align-items: start;
   justify-content: center;
@@ -1962,14 +1953,14 @@ button{
   margin-left: 60px;
 }
 
-.section8-text-contents h1 {
+.partner-text-contents h1 {
   font-size: 40px;
   line-height: 40px;
   width: 340px;
   letter-spacing: -0.01px;
   font-family: TTNorms-medium;
 }
-.section8-text-contents p {
+.partner-text-contents p {
   font-size: 16px;
   margin-top: 20px;
   letter-spacing: -0.01px;
@@ -1977,11 +1968,11 @@ button{
   line-height: 22px;
   font-family: TTNorms-medium;
 }
-.section8-content img {
+.partner-content img {
   width: 724px;
   height: 500px;
 }
-.section8-text-contents button {
+.partner-text-contents button {
   height: 40px;
   width: 146px;
   border: none;
@@ -1995,92 +1986,92 @@ button{
   border-radius: 9999px;
 }
 @media screen and (max-width: 1200px){
-  .section8-content{
+  .partner-content{
     margin:0 20px;
     padding: 80px 0 5px 0;
   }
 }
 
 @media screen and (max-width:1024px){
-  .section8-text-contents {
+  .partner-text-contents {
     margin-left: 44px;
     margin-right: 50px;
   }
-  .section8-content img {
+  .partner-content img {
     width:524px;
     height: 500px;
     object-fit: cover;
   }
-  .section8{
+  .partner{
     padding-bottom: 0;
   }
 }
 
 
 @media screen and (max-width: 768px) {
-  .section8-content img {
+  .partner-content img {
     width: 307px;
     height: 500px;
     object-fit: cover;
   }
-  .section8-content{
+  .partner-content{
     padding-bottom:20px ;
   }
-  .section8-text-contents {
+  .partner-text-contents {
     width: 360px;
   }
   
 }
 
 @media screen and (max-width:750px){
-    .section8-content {
+    .partner-content {
     flex-direction: column;
     padding: 320px 0 5px 0;
     width: 93%;
     margin: 0 auto;
   }
-  .section8-text-contents {
+  .partner-text-contents {
     width: 100%;
     margin-left: 0;
     padding-bottom: 20px;
   }
-  .section8-content img {
+  .partner-content img {
     height: 180px;
     width: 100%;
     object-fit: cover;
   }
-  .section8-text-contents h1 {
+  .partner-text-contents h1 {
     font-size: 24px;
     line-height: 28px;
     margin-top: 20px;
   }
-  .section8-text-contents p {
+  .partner-text-contents p {
     font-size: 14px;
     margin-top: 10px;
     line-height: 20px;
   }
-  .section8 {
+  .partner {
     margin-top: -290px;
   }
-  .section8-text-contents button {
+  .partner-text-contents button {
     font-size: 14px;
     height: 32px;
     width: 139px;
     margin-top: 20px;
   }
-  .section8-image {
+  .partner-image {
       margin-left: 0;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .section8-text-contents p {
+  .partner-text-contents p {
     width: 385px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .section8-text-contents p {
+  .partner-text-contents p {
     width: 335px;
   }
 }
