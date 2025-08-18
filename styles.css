@@ -36,7 +36,7 @@ button{
   font-family: TTNorms-medium;
 }
 
-/*section one css*/
+/*header css*/
 
 .header {
   position: absolute;
@@ -132,7 +132,9 @@ button{
   display: none;
 }
 
-/*section 1 css*/
+/*homepage section  css*/
+
+
 .homepage-section{
   background: url(images/hero_desktop.webp);
   background-position: center center;
@@ -391,6 +393,8 @@ button{
 
 
 /*tablet view*/
+
+
 @media screen and (max-width: 768px) {
   .homepage-content h1 {
     font-size: 22px;
@@ -701,7 +705,7 @@ button{
   color: black;
 }
 
-/*section2 css*/
+/*services css*/
 
 .services {
   width: 100%;
@@ -914,7 +918,7 @@ button{
       }
 }
 
-/*section three css*/
+/*restaurants css*/
 
 .restaurants-content {
   display: flex;
@@ -967,7 +971,9 @@ button{
   border-radius: 9999px;
 }
 
-/*section 3 part 2*/
+/*dashpass css*/
+
+
 .dashpass {
   background-color: #fef1ee;
   margin-top: -50px;
@@ -1186,7 +1192,7 @@ button{
   }
 }
 
-/*section 4 css*/
+/*groceries css*/
 
 .groceries {
   height: 600px;
@@ -1309,7 +1315,10 @@ button{
   }
 }
 
-/*section 5 css*/
+/*shop css*/
+
+
+
 .shop {
   margin-bottom: 50px;
 }
@@ -1441,7 +1450,11 @@ button{
     width: 335px;
   }
 }
-/*section 6 css*/
+
+
+/*card-section css*/
+
+
 .card-section {
   background-color: #fef1ee;
   width: 100%;
@@ -1768,7 +1781,10 @@ button{
   }
 } */
 
-/*section 7 css*/
+
+/*dasher css*/
+
+
 .dasher-main-heading {
   width: 100%;
   height: 80px;
@@ -1930,7 +1946,7 @@ button{
   }
 }
 
-/*section 8 csss*/
+/*partner csss*/
 
 .partner {
   background-color: #fef1ee;
@@ -2076,81 +2092,83 @@ button{
   }
 }
 
-/*section9 css*/
-.section9 {
-  width: 1130px;
-  height: 368px;
+/*more option css*/
+
+.more-options {
+  max-width: 1130px;
+  min-height: 368px;
   margin: 0 auto;
   overflow-y: hidden;
 }
-.section9-main-heading {
+.more-option-main-heading {
   display: flex;
   width: 100%;
   justify-content: center;
 }
-.section9-main-heading h1 {
+.more-option-main-heading h1 {
   font-size: 32px;
-  color: black;
+  color:#191919;
   line-height: 40px;
   letter-spacing: -0.01px;
   text-align: center;
   margin-bottom: 20px;
 }
-
-.section9-header-options {
+.more-option-section {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex: 1;
+  flex-direction: column;
+  gap: 24px;
 }
-.section9-header-options h2 {
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: -0.01px;
-}
-.section9-options-list {
-  display: flex;
-  flex: 1;
-  justify-content: space-between;
-  text-align: left;
-}
-.section9-options-list ul li {
-  margin-bottom: 16px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: -0.01px;
-}
-.section9-options-list ul:nth-child(2) {
-  margin-right: 43px;
-}
-.section9-options-list ul:nth-child(3) {
-  margin-right: 29px;
-}
-.section9-options-list ul:nth-child(4) {
-  margin-right: 189px;
-}
-.options-header {
-  margin-bottom: 30px;
-  color: #191919ff;
-  font-weight: 700;
-  width: 100%;
+.more-option-first-section-heading {
   height: 40px;
+  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-.options-header {
+  justify-content: center;
+  transition: background-color 0.2s ease;
   border-bottom: 2px solid #f1f1f1ff;
 }
-.options-header:nth-child(1) {
+
+.more-option-first-section-heading:nth-child(1){
   border-bottom: 3px solid #191919ff;
-  transition: background-color 0.2s ease;
 }
-.options-header:nth-child(1):hover {
+.more-option-first-section-heading:nth-child(1):hover{
   background-color: #f7f7f7ff;
 }
-
+.more-option-first-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+.more-option-first-section h2{
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.01px;
+  color: #606060;
+}
+.more-option-first-section-heading:nth-child(1) h2{
+  color: #191919;
+}
+.more-option-second-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.more-option-grid-section {
+     display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+}
+.more-option-second-section a{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: TTNorms-medium;
+  line-height: 22px;
+  letter-spacing: -0.01px;
+  color: #191919;
+}
 .see-more-header {
   display: flex;
   width: 100%;
@@ -2159,7 +2177,6 @@ button{
   margin-bottom: 20px;
   height: 60px;
   gap: 10px;
-  padding-right: 10px;
 }
 .see-more-header h1 {
   font-size: 20px;
@@ -2179,68 +2196,6 @@ button{
 .see-more-header div i {
   width: 24px;
   height: 24px;
-}
-@media screen and (max-width:1024px){
-  .section9-options-list ul:nth-child(4){
-    display: none;
-  }
-  .section9-options-list ul:nth-child(3) {
-    margin-right: 250px;
-  }
-}
-
-
-@media screen and (max-width:768px){
-  .section9-header-options{
-    width: 768px;
-  }
-  .section9-main-heading{
-    width: 768px;
-  }
-  .see-more-header{
-    width: 768px;
-  }
-}
-
-
-@media screen and (max-width: 450px) {
-  .section9-options-list {
-    flex-direction: column;
-    margin-top: 10px;
-  }
-  .section9 {
-    height: auto;
-  }
-  .options-header {
-    width: 131px;
-    margin-bottom: 0;
-    align-items: flex-start;
-  }
-  .section9 {
-    width: 425px;
-    padding: 10px;
-  }
-  .see-more-header h2 {
-    font-size: 16px;
-  }
-  .section9-header-options {
-    width: 100vw;
-    justify-content: flex-start;
-  }
-  .section9-main-heading{
-    width: 100vw;
-  }
-  .see-more-header{
-    width: 100vw;
-  }
-  .section9-options-list ul:nth-child(4){
-    display: block;
-  }
-}
-@media screen and (max-width: 400px) {
-  .section9-header-options {
-    width: 100vw
-  }
 }
 
 /*footer css*/
