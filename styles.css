@@ -1559,7 +1559,7 @@ button{
 
 @media screen and (max-width: 1200px){
   .card-section-sections{
-    padding: 40px 0;
+    padding: 40px 20px;
   }
 }
 
@@ -1568,7 +1568,8 @@ button{
   .card-section-sections {
   max-width: 980px;
   gap: 40px;
-  padding-left: 0;
+  padding-left: 20px;
+  /* padding-right: 20px; */
 }
 .card-section-text-section{
   height: 234px;
@@ -1622,6 +1623,7 @@ button{
 }
 .card-section-sections{
   gap: 25px;
+  padding-left: 20px;
   margin-bottom: 0;
 }
 .card-section-sections{
@@ -1737,6 +1739,9 @@ button{
 @media screen and (max-width: 500px) {
   .card-section-text-section{
       height: 178px;
+    }
+    .card-section-sections{
+      padding-right: 0;
     }
 
   .card-section-box:nth-child(1) h1{
