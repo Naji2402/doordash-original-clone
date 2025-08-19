@@ -333,6 +333,7 @@ button{
   height: 161px;
   margin: 20px auto;
   background-color: #F7F7F7;
+  
   display: none;
   flex-direction: column;
   justify-content: center;
@@ -341,12 +342,16 @@ button{
 }
 .small-screen-browse-app div:nth-child(1){
   display: flex;
-  gap: 10px;
+  gap: 8px;
   width: 318px;
 }
+
 .small-screen-browse-app div:nth-child(1) p{
   line-height: 20px;
   letter-spacing: -0.01px;
+}
+.small-screen-browse-app .ratings-star{
+  margin-left: 2px;
 }
 .small-screen-browse-app div:nth-child(1) p:nth-child(1){
   font-family: TTNorms-bold;
@@ -354,7 +359,7 @@ button{
   margin-bottom: 2px;
 }
 .small-screen-browse-app div:nth-child(1) p:nth-child(2){
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   font-size: 14px;
   margin-left: 4px;
   color: #606060ff;
@@ -370,6 +375,7 @@ button{
     align-items: center;
     background-color: white;
     border-radius: 12px;
+    border: 1px solid #f1f1f1ff;
 }
 .c-in-app{
   width: 293px;
@@ -2209,6 +2215,13 @@ button{
   height: 24px;
 }
 
+
+@media screen and (max-width:1130px) {
+  .more-option-section {
+    padding: 0 16px;
+}
+}
+
 /*footer css*/
 
  .footer {
@@ -2324,7 +2337,11 @@ button{
   fill: white;
 }
 
-
+@media screen and (max-width:1160px){
+  .footer-main-section{
+    padding: 0 16px;
+  }
+}
 
 
 @media screen and (max-width: 960px) {
@@ -2449,6 +2466,12 @@ button{
 .sub-footer-third-section svg path {
   fill:  rgb(196, 196, 196);
 }
+@media screen and (max-width:1160px){
+  .sub-footer-main{
+    padding: 0 16px;
+  }
+}
+
 @media screen and (max-width: 750px){
   .sub-footer-main {
     flex-direction: column-reverse;
