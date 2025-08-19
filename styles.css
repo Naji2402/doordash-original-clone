@@ -1559,8 +1559,7 @@ button{
 
 @media screen and (max-width: 1200px){
   .card-section-sections{
-    margin: 40px 20px;
-    padding-left: 0;
+    padding: 40px 0;
   }
 }
 
@@ -1623,7 +1622,6 @@ button{
 }
 .card-section-sections{
   gap: 25px;
-  padding-left: 20px;
   margin-bottom: 0;
 }
 .card-section-sections{
