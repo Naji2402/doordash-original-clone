@@ -440,7 +440,63 @@ button{
   }
 }
 
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width:750px) {
+  .middle-header-section{
+    display: none;
+  }
+  .header{
+    height: 100px;
+  }
+    .doordash-logo-small-size-display {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 10px 10px 10px;
+    background-color: white;
+  }
+  .doordash-logo-small-size-display div:nth-child(1) {
+    display: flex;
+    align-items: center;
+  }
+   .doordash-small-logo {
+    width: 52px;
+    height: 30px;
+  }
+  .right-header-section {
+    display: none;
+  }
+  .doordash-logo-small-size-display div:nth-child(1) div:nth-child(1){
+    border: 1px solid #f1f1f1ff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 8px 12px 4px;
+    border-radius: 10px;
+  }
+  .doordash-logo-small-size-display div:nth-child(2) .signin-btn{
+    font-size: 18px;
+      font-weight: bold;
+      font-family: TTNorms-medium;
+      background-color: #eb1700;
+      color: white;
+      border: none;
+      width: 66px;
+    height: 32px;
+    border-radius: 9999px;
+    padding-bottom: 1px;
+    letter-spacing: 0.5px;
+  }
+  .s-screen-btns {
+    display: flex;
+  }
   .homepage-section {
     background-position: 53% 50%;
     height: 647px;
@@ -468,7 +524,7 @@ button{
     line-height: 28px;
     margin-top: 21px;
     position: relative;
-    top: -4px;
+    top: -5px;
   }
   .input-address-box .location-icon {
     display: none;
@@ -479,7 +535,7 @@ button{
     display: block;
   }
   .ar-btn {
-        left: 241px;
+        left: 280px;
         top: 26px;
         padding: 8px;
   }
@@ -491,7 +547,7 @@ button{
     display: none;
   }
   .address-input {
-    width: 297px;
+    width: 336px;
     height: 52px;
   }
   .signup-btn {
@@ -507,52 +563,7 @@ button{
   .doordash-logo-hidden {
     display: none;
   }
-  .doordash-logo-small-size-display {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
-    margin: 1px solid gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 17px 4px 10px 5px;
-  }
-  .doordash-small-logo {
-    width: 52px;
-    height: 30px;
-  }
-  .right-header-section {
-    display: none;
-  }
-  .doordash-logo-small-size-display div:nth-child(1) {
-    padding: 12px 8px 12px 4px;
-    border: 1px solid #f1f1f1ff;
-    border-radius: 10px;
-    width: 64px;
-    height: 64px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-  }
-  .small-size-texts div:nth-child(1) {
-    width: 109px;
-  }
-  .signin-btn {
-    margin-left: 95px;
-    margin-top: 10px;
-    width: 66px;
-    height: 32px;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: -0.01px;
-    padding-bottom: 3px;
-    color: #FFFFFF;
-  }
-  .doordash-logo-small-size-display p:nth-child(2) {
-    font-size: 14px;
-  }
+ 
 
   .s-screen-btns {
     display: flex;
@@ -578,7 +589,10 @@ button{
   }
   .t1-s-main {
     margin-top: 16px;
+    display: flex;
   }
+   
+  
   
 }
   @media screen and (max-width: 400px) {
@@ -591,8 +605,8 @@ button{
       margin-top: 15px;
     }
     .ar-btn {
-      left: 241px;
-      top: 27px;
+      left: 282px;
+        top: 26px;
       padding: 8px;
     }
     .input-address-box {
@@ -667,7 +681,7 @@ button{
 }
 .t1-s svg {
   position: absolute;
-  top: 8px;
+  top: 7px;
   left: 12px;
 }
 .t1-s p {
@@ -681,8 +695,9 @@ button{
 .t1-s-main {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 12px;
+  gap: 12px;
 }
 .t2-s {
   display: none;
@@ -693,7 +708,7 @@ button{
 }
 .t2-s svg {
   position: absolute;
-  top: 8px;
+  top: 7px;
   left: 12px;
 }
 .t2-s p {
@@ -855,9 +870,7 @@ button{
   } */
 }
 
-
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px){
   .t1 {
     display: none;
   }
@@ -867,6 +880,10 @@ button{
   .t1-s {
     display: flex;
   }
+}
+
+@media screen and (max-width: 500px) {
+  
   .options {
     flex-direction: column;
     gap: 0;
@@ -1297,7 +1314,7 @@ button{
     padding-top: 23px;
   }
   .groceries-blur p {
-    width: 400px;
+    width: 100%;
     
   }
   
@@ -2449,4 +2466,10 @@ button{
   .sub-footer-first-section {
     margin-top: 10px;
   }
+  
+}
+@media screen and (max-width:600px){
+    .sub-footer-first-section div:nth-child(6){
+        margin-top: 0;
+}
 }
