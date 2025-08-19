@@ -457,7 +457,7 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 17px 10px 10px 10px;
+    padding: 17px 8px 0 8px;
     background-color: white;
   }
   .doordash-logo-small-size-display div:nth-child(1) {
@@ -478,21 +478,19 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px 8px 12px 4px;
     border-radius: 10px;
   }
   .doordash-logo-small-size-display div:nth-child(2) .signin-btn{
-    font-size: 18px;
+      font-size: 16px;
       font-weight: bold;
       font-family: TTNorms-medium;
       background-color: #eb1700;
       color: white;
       border: none;
       width: 66px;
-    height: 32px;
-    border-radius: 9999px;
-    padding-bottom: 1px;
-    letter-spacing: 0.5px;
+      height: 32px;
+      border-radius: 9999px;
+      letter-spacing: 0.5px;
   }
   .s-screen-btns {
     display: flex;
@@ -649,27 +647,27 @@ button{
   margin-top: -2px;
   font-size: 14px;
   color: #606060;
-  margin-left: 3px;
+  margin-left: 4px;
   font-weight: 500;
   font-family: TTNorms-medium;
 }
 .small-size-texts {
   margin-left: 8px;
-  margin-top: 8px;
+  margin-bottom: 3px;
 }
 .small-size-texts p:nth-child(2) {
   margin-top: 0;
   font-size: 14px;
   font-weight: 600;
   font-family: TTNorms-regular;
-  letter-spacing: 0.10px;
+  letter-spacing: 0.20px;
   color: #606060ff;
 }
 .small-size-texts p:nth-child(1) {
   margin-bottom: 4px;
   font-weight: 700;
   font-family: TTNorms-medium;
-  letter-spacing: 0.15px;
+  letter-spacing: 0.25px;
 }
 
 .t1-s {
