@@ -36,7 +36,11 @@ button{
   font-family: TTNorms-medium;
 }
 
+
+
 /*header css*/
+
+
 
 .header {
   position: absolute;
@@ -132,7 +136,12 @@ button{
   display: none;
 }
 
+
+
+
 /*homepage section  css*/
+
+
 
 
 .homepage-section{
@@ -165,7 +174,7 @@ button{
   margin-top: 11px;
 }
 .homepage-content {
-  margin-top: 69px;
+  margin-top: 75px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -194,7 +203,7 @@ button{
   line-height: 22px;
   font-weight: 550;
   letter-spacing: 0.01px;
-  margin: 20px 0 18px 0px;
+  margin: 24px 0 18px 0px;
 }
 .address-input:focus{
   border: 2px solid rgb(0, 85, 255);
@@ -208,7 +217,7 @@ button{
 .input-address-box .location-icon {
   position: absolute;
   left: 20px;
-  top: 36px;
+  top: 40px;
 }
 .input-address-box .search-icon {
   position: absolute;
@@ -219,7 +228,7 @@ button{
 .ar-btn {
     position: absolute;
     left: 360px;
-    top: 28px;
+    top: 32px;
     width: 40px;
     background-color: rgb(233, 9, 9);
     border-radius: 50px;
@@ -325,7 +334,13 @@ button{
   top: 8px;
 }
 
+
+
+
+
 /*small screen browse app css*/
+
+
 
 
 .small-screen-browse-app{
@@ -398,8 +413,20 @@ button{
 }
 
 
+
 /*tablet view*/
 
+@media screen and (max-width:955px) {
+  .t1 {
+    display: none;
+  }
+  .tbv-btn{
+    display: flex;
+  }
+  .tablet-view-btn{
+    display: block;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .homepage-content h1 {
@@ -410,9 +437,7 @@ button{
     line-height: 28px;
     margin-top: -5px;
   }
-  .t1 {
-    display: none;
-  }
+  
   .middle-header-section svg:nth-child(1){
     width: 32px;
     height: 18px;
@@ -421,12 +446,8 @@ button{
     width: 112px;
     height: 13px;
   }
-  .tablet-view-btn{
-    display: block;
-  }
-  .tbv-btn{
-    display: flex;
-  }
+  
+  
   .middle-header-section div{
     gap: 11px;
     padding-bottom: 5px;
@@ -586,7 +607,7 @@ button{
     bottom: 0;
   }
   .address-input{
-    padding: 8px 8px 8px 51px;
+    padding: 7px 8px 8px 52px;
   }
   .address-input {
      margin: 20px 0 0 0px;
@@ -625,9 +646,6 @@ button{
   }
 .left-header-section {
   padding: 0;
-}
-.middle-header-section {
-  /* display: none; */
 }
 .doordash-logo-small-size-display p {
   margin: 6px 0;
@@ -724,154 +742,125 @@ button{
   color: black;
 }
 
+
+
 /*services css*/
 
-.services {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.services{
+    width: 100%;
 }
-.options {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 1104px;
-  margin: 124px auto 144px auto;
-  gap: 110px;
-  padding-right: 65px;
+.options-main{
+    max-width: 1184px;
+    margin: 96px auto; 
+    padding: 12px;
+    display: flex;
 }
-.sub-options {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
+.sub-options{
+    min-width: 360px;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.sub-options img {
-  width: 154px;
-  height: 154px;
+.sub-options div:nth-child(2){
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    margin-right: 64px;
 }
-.sub-options h1 {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: -0.01px;
-  margin-bottom: 8px;
-  margin-right: 15px;
-  font-family: TTNorms-medium;
+.sub-options div:nth-child(2) h2{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: TTNorms-medium,Arial, Helvetica, sans-serif;
 }
-.sub-options h4 {
-  color: #191919ff;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: -0.01px;
-  margin-bottom: 6px;
-  font-family: TTNorms-medium;
+.sub-options div:nth-child(2) h3{
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: -0.01px;
+    font-family: TTNorms-medium,Arial, Helvetica, sans-serif;
+
 }
-.sub-options div:nth-child(2) {
-  width: 250px;
-  height: 230px;
+.sub-options div:nth-child(2) p{
+    margin-top: 18px;
+    color: #eb1700ff;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: TTNorms-medium,Arial, Helvetica, sans-serif;
 }
-.sub-options-link a {
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 700;
-  color: #eb1700ff;
-  letter-spacing: -0.01px;
-  font-family: TTNorms-medium;
+.sub-options div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 64px;
+}
+.sub-options div:nth-child(1) img{
+    height: 154px;
+    width: 154px;
+}
+.sub-options div:nth-child(2) div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.sub-options div:nth-child(2) div svg{
+    fill: #eb1700ff;
+    margin-top: 15px;
+    
 }
 .t1-s {
     display: none;
   }
-  @media screen and (max-width: 1024px){
-    .options {
-    flex-direction: column;
-    gap: 0;
-    width: 100%;
-    padding: 0;
-    max-width: none;
-    max-height: none;
-    margin: 38px auto 80px auto;
-  }
-  .services {
-    width: 100%;
-    margin: 0 auto;
-    height: auto;
-  }
-  .sub-options img {
-    width: 124px;
-    height: 124px;
-    margin-bottom: 65px;
-  }
-
-  .sub-options {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 228px;
-    text-align: left;
-  }
-  .sub-options div:nth-child(2) {
-    width: 250px;
-    height: auto;
-    padding-left: 25px;
-  }
-  .sub-options-link a {
-    font-size: 14px;
-  }
-  .sub-options div:nth-child(1) {
-    margin-right: 64px;
-  }
-  .sub-options div:nth-child(2) {
-        padding-left: 0;
-  }
-  }
-
-@media screen and (max-width: 768px) {
-  /* .options {
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
-    padding: 0;
-    max-width: none;
-    max-height: none;
-  }
-  .section2 {
-    width: 100%;
-    margin: 0 auto;
-    height: auto;
-  }
-  .sub-options img {
-    width: 124px;
-    height: 124px;
-    margin-bottom: 75px;
-  }
-
-  .sub-options {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 238px;
-    text-align: left;
-  }
-  .sub-options div:nth-child(2) {
-    width: 250px;
-    height: auto;
-    padding-left: 25px;
-  }
-  .sub-options-link a {
-    font-size: 14px;
-  }
-  .sub-options div:nth-child(1) {
-    margin-right: 64px;
-  }
-  .sub-options div:nth-child(2) {
-        padding-left: 0;
-  } */
+@media screen and (max-width:1184px){
+    .options-main{
+        flex-direction: column;
+        
+    }
+    .sub-options{
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 80px;
+    }
+    .sub-options div:nth-child(2){
+        text-align: left;
+    }
+    .sub-options div:nth-child(1) img{
+        height: 124px;
+        width: 124px;
+    }
+    .sub-options div:nth-child(1){
+        margin-bottom: 64px;
+    }
+    .sub-options div:nth-child(2) p{
+        font-size: 14px;
+    }
+    .sub-options div:nth-child(2) div{
+        justify-content: flex-start;
+    }
+}
+@media screen and (max-width:768px){
+    
+    .sub-options div:nth-child(1) img{
+        height: 88px;
+        width: 88px;
+    }
+    .sub-options:nth-child(1) div:nth-child(1){
+        margin-bottom: 90px;
+        margin-right: 32px;
+    }
+    .sub-options:nth-child(2) div:nth-child(1){
+        margin-bottom: 112px;
+        margin-right: 32px;
+    }
+    .sub-options:nth-child(3) div:nth-child(1){
+        margin-bottom: 130px;
+        margin-right: 32px;
+    }
 }
 
 @media screen and (max-width: 750px){
@@ -886,60 +875,10 @@ button{
   }
 }
 
-@media screen and (max-width: 500px) {
-  
-  .options {
-    flex-direction: column;
-    gap: 0;
-    width: 100%;
-    padding: 0;
-    max-width: none;
-    max-height: none;
-  }
-  .services {
-    width: 100%;
-    margin: 0 auto;
-    height: auto;
-  }
-  .sub-options img {
-    width: 88px;
-    height: 88px;
-    margin-bottom: 120px;
-  }
-
-  .sub-options {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 230px;
-    text-align: left;
-    margin-right: 33px;
-  }
-  .sub-options div:nth-child(2) {
-    width: 250px;
-    height: auto;
-    padding-bottom: 22px;
-  }
-  .sub-options-link a {
-    font-size: 14px;
-  }
-      .sub-options div:nth-child(1) {
-        margin:0 32px;
-      }
-      .options{
-        margin-top: 50px;
-      }
-      .sub-options h4 {
-        width: 250px;
-        margin-bottom: 10px;
-      }
-      .sub-options h1{
-        margin-bottom: 0;
-      }
-}
 
 /*restaurants css*/
+
+
 
 .restaurants-content {
   display: flex;
@@ -992,7 +931,10 @@ button{
   border-radius: 9999px;
 }
 
+
+
 /*dashpass css*/
+
 
 
 .dashpass {
@@ -1213,7 +1155,11 @@ button{
   }
 }
 
+
+
 /*groceries css*/
+
+
 
 .groceries {
   height: 600px;
@@ -1335,6 +1281,8 @@ button{
     text-align: center;
   }
 }
+
+
 
 /*shop css*/
 
@@ -1473,7 +1421,11 @@ button{
 }
 
 
+
+
 /*card-section css*/
+
+
 
 .card-section{
     width: 100%;
@@ -1575,15 +1527,15 @@ button{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 60px 20px 40px;
+    padding: 40px 20px 20px;
 }
 .small-card-section-main-heading h2{
-    max-width: 500px;
-    font-size: 32px;
+    max-width: 360px;
+    font-size: 24px;
     font-weight: 700px;
     letter-spacing: -0.01px;
     color: #191919ff;
-    line-height: 40px;
+    line-height: 28px;
     text-align: center;
     font-family: TTNorms-medium;
 
@@ -1659,7 +1611,10 @@ button{
      }
 }
 
+
+
 /*dasher css*/
+
 
 
 .dasher-main-heading {
@@ -1703,7 +1658,6 @@ button{
   line-height: 40px;
   letter-spacing: -0.01px;
   font-family: TTNorms-medium;
-  width: 350px;
   height: 84px;
 }
 .dasher-text-contents p {
@@ -1807,23 +1761,17 @@ button{
     width: auto;
   }
 }
-
-@media screen and (max-width: 500px) {
-  .dasher-text-contents h1{
-    width: 300px;
-    
-  }
-  .dasher-text-contents {
-    width: 385px;
-  }
-}
 @media screen and (max-width: 400px) {
   .dasher-text-contents p {
     width: 335px;
   }
 }
 
+
+
 /*partner csss*/
+
+
 
 .partner {
   background-color: #fef1ee;
@@ -1968,7 +1916,10 @@ button{
   }
 }
 
+
 /*more option css*/
+
+
 
 .more-options {
   max-width: 1130px;
@@ -2081,7 +2032,11 @@ button{
 }
 }
 
+
+
 /*footer css*/
+
+
 
  .footer {
   background: #191919ff;
@@ -2217,9 +2172,11 @@ button{
   .second-footer-first-section{
     justify-content: space-between;
   }
+
   .footer-sections {
     gap: 0;
   }
+
 }
 
 @media screen and (max-width:768px) {
@@ -2243,13 +2200,19 @@ button{
   }
 }
 
+
+
 /*sub-footer css*/
+
+
+
 
 .sub-footer {
   min-height: 96px;
   width: 100%;
   background: #191919ff;
 }
+
 .sub-footer-main {
   max-width: 1120px;
   margin: 0 auto;
@@ -2258,30 +2221,36 @@ button{
   justify-content: space-between;
   align-items: center;
 }
+
 .sub-footer-first-section {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .sub-footer-first-section div{
   margin-left: 12px;
 }
+
 .sub-footer-first-section div:nth-child(1){
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 0;
 }
+
 .sub-footer-first-section a {
   text-decoration: none;
   color: rgb(196, 196, 196);
   font-size: 12px;
   font-family: TTNorms-medium;
 }
+
 .sub-footer-first-section p {
   color: rgb(196, 196, 196);
   font-size: 12px;
   font-family: TTNorms-medium;
 }
+
 .sub-footer-second-section {
   display: flex;
   flex-wrap: wrap;
@@ -2298,17 +2267,20 @@ button{
   font-weight: 500;
   padding: 6px 0px 0px 45px;
 }
+
 .sub-footer-second-section svg {
   position: absolute;
   left: 12px;
   top: 5px;
 }
+
 .sub-footer-second-section i {
   position: absolute;
   right: 15px;
   top: 7px;
   font-size: 17px;
 }
+
 .sub-footer-third-section {
   width: 100%;
   display: flex;
@@ -2319,9 +2291,11 @@ button{
   gap: 10px;
   
 }
+
 .sub-footer-third-section svg path {
   fill:  rgb(196, 196, 196);
 }
+
 @media screen and (max-width:1160px){
   .sub-footer-main{
     padding: 32px 16px;
@@ -2335,7 +2309,7 @@ button{
   }
   .sub-footer-second-section{
     margin-right: 0;
-    margin-top: 5px;
+    margin-top: 12px;
   }
   .sub-footer-third-section{
     padding-right: 0;
@@ -2343,11 +2317,12 @@ button{
   .sub-footer-first-section {
     margin-top: 10px;
   }
-  
 }
+
 @media screen and (max-width:600px){
     .sub-footer-first-section div:nth-child(6){
         margin-top: 0;
 }
 }
+
 
