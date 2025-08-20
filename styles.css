@@ -1475,329 +1475,189 @@ button{
 
 /*card-section css*/
 
-
-.card-section {
-  background-color: #fef1ee;
-  width: 100%;
-  padding: 80px 0 20px 0;
-  margin-top: -80px;
-  margin-bottom: 60px;
-}
-.card-section-sections {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1184px;
-  margin: 0 auto;
-  margin-top: 60px;
-  column-gap: 20px;
-  row-gap: 40px;
-  padding-left: 20px;
-}
-.card-section-main-heading {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.card-section-box {
-  max-width: 552px;
-}
-.card-section-box:nth-child(1) button{
-  width: 117px;
-  padding-bottom: 2px;
-}
-.card-section-box:nth-child(2) button{
-  width: 124px;
-  padding-bottom: 1px;
-}
-.card-section-box:nth-child(2) h1{
-  height: 45px;
-}
-.card-section-box:nth-child(3) button{
-  width: 123px;
-} 
-.card-section-box:nth-child(4) button{
-  width: 149px;
-}
-
-.card-section-box img {
-  width: 100%;
-  max-height: 552px;
-  object-fit: cover;
-}
-.card-section-main-heading h1 {
-  font-size: 32px;
-  width: 500px;
-  height: 80px;
-  color: #191919ff;
-  font-weight: 700;
-  line-height: 40px;
-  text-align: center;
-  font-family: TTNorms-medium;
-}
-.card-section-sections h1 {
-  font-size: 40px;
-  text-align: center;
-  line-height: 40px;
-  color: #191919;
-  font-weight: 700;
-  font-family: TTNorms-medium;
-  letter-spacing: 0.03px;
-  margin-top: 20px;
-}
-.card-section-sections p {
-  font-size: 16px;
-  text-align: center;
-  color: #191919;
-  letter-spacing: -0.01px;
-  line-height: 20px;
-  margin-top: 20px;
-  font-family: TTNorms-medium;
-}
-
-.card-section-sections button {
-  height: 40px;
-  width: 146px;
-  border: none;
-  color: white;
-  background-color: #eb1700ff;
-  margin-top: 30px;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 22px;
-  letter-spacing: -0.01px;
-  border-radius: 9999px;
-}
-.card-section-text-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.card-section-box:nth-child(3) .card-section-text-section p{
-  width: 100%;
-  text-align: center;
-}
-
-@media screen and (max-width: 1200px){
-  .card-section-sections{
-    padding: 40px 20px;
-  }
-}
-
-
-@media screen and (max-width:1024px){
-  .card-section-sections {
-  max-width: 980px;
-  gap: 40px;
-  padding-left: 20px;
-  /* padding-right: 20px; */
-}
-.card-section-text-section{
-  height: 234px;
-}
- .card-section-box img {
-    width: 100%;
-}
 .card-section{
-  padding: 80px 0 0 0;
-  
+    width: 100%;
+    background-color: rgb(254, 241, 238);
+    margin-top: -70px;
 }
-.card-section-box:nth-child(3) .card-section-text-section button{
-  margin-top: 25px;
-}
-.card-section-box:nth-child(3) .card-section-text-section p{
-  margin-top: 18px;
-}
-.card-section-box:nth-child(2) .card-section-text-section{
-  height: 230px;
-}
-.card-section-box:nth-child(2) .card-section-text-section h1{
-  width: 424px;
-  height: 80px;
-}
-.card-section-box:nth-child(2) .card-section-text-section p{
-  width: 422px;
-}
+.small-card-section{
+    display: none;
 }
 
+.card-section-max{
+    max-width: 1184px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.card-section-main-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px 40px;
+}
+.card-section-main-heading h2{
+    max-width: 500px;
+    font-size: 32px;
+    font-weight: 700px;
+    letter-spacing: -0.01px;
+    color: #191919ff;
+    line-height: 40px;
+    text-align: center;
+    font-family: TTNorms-medium;
 
-@media screen and (max-width:768px){
-  .card-section-box {
-    width: 344px;
-    height: 658px;
-  }
-  .card-section-box div:nth-child(1) {
-    height: 344px;
-  }
-  .card-section-box img {
-    object-fit: cover;
-    height: 100%
 }
-.card-section-text-section{
-  height: 274px;
+.card-section-main{
+    display: flex;
+    flex-direction: column;
 }
-.card-section-box:nth-child(3) .card-section-text-section {
-  height: 296px;
+.card-section-main .card-box{
+    padding: 20px;
+    max-width: 592px;
 }
-.card-section-box:nth-child(1) h1{
-  width: 309px;
+.card-box img{
+    width: 100%;
+    max-height: 552px;
 }
-.card-section-sections{
-  gap: 25px;
-  padding-left: 20px;
-  margin-bottom: 0;
+.card-box div:nth-child(2){
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.card-section-sections{
-  row-gap: 0;
+.card-box div:nth-child(2) h2{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.01px;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    font-family: TTNorms-medium;
+    text-align: center;
 }
-.card-section-box:nth-child(3) .card-section-text-section {
-        height: 293px;
+.card-box div:nth-child(2) p{
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    font-family: TTNorms-medium;
+    text-align: center;
 }
+.card-box div:nth-child(2) button{
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    min-height: 40px;
+    padding: 0 20px;
+    background-color: #EB1700;
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    text-align: center;
+}
+.first-card-section{
+    display: flex;
+    justify-content: center;
+}
+.second-card-section{
+    display: flex;
+    justify-content: center;
+}
+.small-card-section{
+    width: 100%;
+    background-color: rgb(254, 241, 238);
+}
+.small-card-section-main-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px 40px;
+}
+.small-card-section-main-heading h2{
+    max-width: 500px;
+    font-size: 32px;
+    font-weight: 700px;
+    letter-spacing: -0.01px;
+    color: #191919ff;
+    line-height: 40px;
+    text-align: center;
+    font-family: TTNorms-medium;
+
+}
+.small-card-box div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.small-card-box div:nth-child(2) h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.01px;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    font-family: TTNorms-medium;
+    text-align: center;
+}
+.small-card-box div:nth-child(2) p{
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    font-family: TTNorms-medium;
+    text-align: center;
+}
+.small-card-box div:nth-child(2) button{
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    min-height: 40px;
+    padding: 0 20px;
+    background-color: #EB1700;
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    text-align: center;
 }
 
-@media screen and (max-width: 750px) {
-  .card-section-sections {
+.small-card-section-main{
     display: flex;
     flex-direction: row;
-    overflow-x: auto;
+    overflow-x: scroll;
+    width: 100%;
     scrollbar-width: none;
-    padding-left: 0;
-    gap: 10px;
-  }
-  .card-section {
-    padding: 40px 0 20px 0;
-    margin-top: -30px;
-  }
-  .card-section-sections .card-section-box {
-    max-width: 635px;
-    width: 100%;
-    margin-right: 10px;
-    padding-bottom: 0;
-    height: 362px;
-    flex: 0 0 auto;
-  }
-  .card-section-sections .card-section-box:nth-child(1) {
-    margin-left: 40px
-  }
-  .card-section-sections .card-section-box:nth-last-child(1) {
-    margin-right: 40px;
-  }
-  .card-section-box div:nth-child(1){
+}
+.small-card-box{
+        min-width: 90%;
+        margin-left: 5%;
+        margin-right: -10%;
+        padding: 20px;
+}
+.small-card-box:nth-last-child(1){
+    margin-right: 5%;
+}
+.small-card-box img{
     height: 180px;
-  }
-  .card-section-box img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
-  }
-  .card-section-sections h1 {
-    font-size: 24px;
-    line-height: 28px;
-    width: 100%;
-    margin-top: 20px;
-  }
-  .card-section-box:nth-child(1) h1{
-  width: 100%;
-}
-  .card-section-sections p {
-    font-size: 14px;
-    width: 100%;
-    margin-top: 10px;
-  }
-  .card-section-box .text-section3 p:nth-last-child(1){
-    font-size: 12px;
-  }
-  .card-section-sections button {
-    height: 32px;
-    width: 120px;
-    font-size: 14px;
-    margin-top: 20px;
-  }
-  .card-section-main-heading {
-    width: 100%;
-  }
-  .card-section-main-heading h1 {
-    font-size: 24px;
-    line-height: 28px;
-    width: 300px;
-  }
-  .card-section-sections {
-     margin-top: 20px;
-    }
-    .card-section-text-section{
-      height: 130px;
-    }
-    .card-section-box:nth-child(3) .card-section-text-section {
-      height: 190px;
-}   
-     .card-section-box:nth-child(3) .card-section-text-section button{
-      margin-top: 20px;
-}
- .card-section-box:nth-child(3) .card-section-text-section h1{
-      margin-top: 20px;
-}
- .card-section-box:nth-child(3) .card-section-text-section p{
-      margin-top: 10px;
-}
- .card-section-box:nth-child(4) .card-section-text-section {
-      height: 150px;
-}   
-.card-section-box:nth-child(2) .card-section-text-section h1{
-  height: 28px;
-}
-.card-section-box:nth-child(2) .card-section-text-section {
-  width: 100%;
-  height: 150px;
-}
-.card-section-box:nth-child(2) .card-section-text-section p{
-  width: 100%;
-  height: 40px;
 }
 
-
+@media screen and (max-width:768px) {
+     .small-card-section{
+        display: block;
+     }
+     .card-section{
+        display: none;
+     }
 }
-
-@media screen and (max-width: 500px) {
-  .card-section-text-section{
-      height: 178px;
-    }
-    .card-section-sections{
-      padding-right: 0;
-    }
-
-  .card-section-box:nth-child(1) h1{
-    width: 365px;
-}
-.card-section-sections .card-section-box:nth-child(3){
-  height: 382px;
-}
-}
-
-@media screen and (max-width: 426px){
-  .card-section-sections .card-section-box{
-    width: 343px;
-  }
-  .card-section-box:nth-child(4) .card-section-text-section {
-      height: 161px;
-}  
-}
-
-
-/* @media screen and (max-width: 400px) {
-  .card-section-box img {
-    width: 296px;
-  }
-  .card-section-sections .card-section-box {
-    width: 297px;
-  }
-  .card-section-sections h1 {
-    width: 267px;
-  }
-  .card-section-sections p {
-    width: 297px;
-  }
-} */
-
 
 /*dasher css*/
 
@@ -2468,7 +2328,7 @@ button{
 }
 @media screen and (max-width:1160px){
   .sub-footer-main{
-    padding: 0 16px;
+    padding: 32px 16px;
   }
 }
 
@@ -2494,3 +2354,4 @@ button{
         margin-top: 0;
 }
 }
+
