@@ -741,7 +741,22 @@ button{
   font-family: TTNorms-bold;
   color: black;
 }
+.t1-s {
+    display: none;
+  }
 
+
+  @media screen and (max-width: 750px){
+  .t1 {
+    display: none;
+  }
+  .t2-s {
+    display: flex;
+  }
+  .t1-s {
+    display: flex;
+  }
+}
 
 
 /*services css*/
@@ -786,7 +801,7 @@ button{
 
 }
 .sub-options div:nth-child(2) p{
-    margin-top: 18px;
+    margin-top: 12px;
     color: #eb1700ff;
     font-weight: 700;
     font-size: 18px;
@@ -796,7 +811,24 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 64px;
+}
+.sub-options:nth-child(1) div:nth-child(1) {
+  margin-right: 10px;
+}
+.sub-options:nth-child(1) div:nth-child(2) {
+  margin-right: 30px;
+}
+.sub-options:nth-child(2) div:nth-child(1) {
+  margin-right: 64px;
+}
+.sub-options:nth-child(2) div:nth-child(2) {
+  margin-right: 80px;
+}
+.sub-options:nth-child(3) div:nth-child(1) {
+  margin-right: 119px;
+}
+.sub-options:nth-child(3) div:nth-child(2) {
+  margin-right: 133px;
 }
 .sub-options div:nth-child(1) img{
     height: 154px;
@@ -813,12 +845,11 @@ button{
     margin-top: 15px;
     
 }
-.t1-s {
-    display: none;
-  }
+
 @media screen and (max-width:1184px){
     .options-main{
         flex-direction: column;
+        margin: 32px auto;
         
     }
     .sub-options{
@@ -842,9 +873,30 @@ button{
     .sub-options div:nth-child(2) div{
         justify-content: flex-start;
     }
+
+  .sub-options:nth-child(1) div:nth-child(1) {
+        margin-right: 64px;
+      }
+  .sub-options:nth-child(1) div:nth-child(2) {
+      margin-right: 0;
+      }
+  .sub-options:nth-child(2) div:nth-child(1) {
+      margin-right: 64px;
+      }
+  .sub-options:nth-child(2) div:nth-child(2) {
+      margin-right: 0;
+    }
+  .sub-options:nth-child(3) div:nth-child(1) {
+        margin-right: 64px;
+    }
+  .sub-options:nth-child(3) div:nth-child(2) {
+        margin-right: 0;
+    }
 }
 @media screen and (max-width:768px){
-    
+    .options-main{
+        margin: 40px auto; 
+    }
     .sub-options div:nth-child(1) img{
         height: 88px;
         width: 88px;
@@ -863,23 +915,31 @@ button{
     }
 }
 
-@media screen and (max-width: 750px){
-  .t1 {
-    display: none;
+
+
+@media screen and (max-width:560px){
+  .sub-options {
+        padding-left: 0;
   }
-  .t2-s {
-    display: flex;
-  }
-  .t1-s {
-    display: flex;
+  .sub-options div:nth-child(2) {
+    margin-right:0;
   }
 }
-
+@media screen and (max-width:415px){
+  .sub-options{
+    padding: 16px;
+  }
+  .options-main{
+    padding: 8px;
+  }
+}
 
 /*restaurants css*/
 
 
-
+.restaurants{
+  padding-top: 20px;
+}
 .restaurants-content {
   display: flex;
   max-width: 1160px;
@@ -987,6 +1047,7 @@ button{
 }
 
 @media screen and (max-width: 1200px){
+ 
   .restaurants-content{
     margin:0 20px;
   }
@@ -1397,7 +1458,7 @@ button{
   .shop-text-contents p {
     font-size: 14px;
     margin-top: 10px;
-    width: 375px;
+    width: 100%;
   }
   .shop-text-contents button {
     font-size: 14px;
