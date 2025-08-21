@@ -942,6 +942,9 @@ button{
     max-width: 210px;
   }
 }
+
+
+
 /*restaurants css*/
 
 
@@ -1533,6 +1536,7 @@ button{
 .card-section-main .card-box{
     padding: 20px;
     max-width: 592px;
+    flex: 1;
 }
 .card-box img{
     width: 100%;
@@ -1545,7 +1549,7 @@ button{
     align-items: center;
 }
 .card-box div:nth-child(2) h2{
-    font-size: 38px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 50px;
     letter-spacing: -0.01px;
@@ -1784,6 +1788,7 @@ button{
 @media screen and (max-width:750px){
   .dasher-main-heading {
     margin-bottom: 25px;
+    margin-left: 0;
   }
   .dasher-main-heading h1 {
     font-size: 24px;
@@ -2114,6 +2119,7 @@ button{
 }
 .footer-main-section h2 {
   color: white;
+  font-family: TTNorms-medium;
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
@@ -2390,5 +2396,4 @@ button{
         margin-top: 0;
 }
 }
-
 
